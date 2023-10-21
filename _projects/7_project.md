@@ -4,7 +4,7 @@ title: project 7
 description: THIS IS A TEST PROJECT
 img:
 importance: 4
-category: fun
+category: TEST
 ---
 This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine. You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`. If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
 
