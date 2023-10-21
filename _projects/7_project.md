@@ -21,3 +21,7 @@ MathJax will automatically number equations:
 \label{eq:cauchy-schwarz}
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 \end{equation}
+
+\section*{Part A}
+If we had magnetic monopoles, we would have magnetic field lines that begin or end somewhere, so that would require a nonzero divergence. We'd expect it to look like Gauss's law, with some constant C like $\mu_0$ or $\epsilon_0$,
+
