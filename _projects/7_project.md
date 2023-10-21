@@ -29,3 +29,11 @@ If we had magnetic monopoles, we would have magnetic field lines that begin or e
     \nabla\cdot\mathbf{B}=C\rho_{m}
 \end{align*}
 where $\rho_m$ is the magnetic charge density. 
+
+$$\begin{aligned} 2x - 4 &= 6 \\ 2x &= 10 \\ x &= 5 \end{aligned}$$
+
+\begin{align*}
+    f_m&=\frac{\mu_{0}}{2\pi}\frac{I_{1}I_{2}}{d}  \numberthis \label{c} \\
+    &=\frac{\mu_{0}}{2\pi}\frac{2I}{d} \\
+    &= 2\times10^{-7}\,\mathrm{N/cm}.
+\end{align*}
