@@ -23,4 +23,4 @@ I'm a father of three young kids and a proud husband. I'm currently a a program 
 
 I received undergraduate and graduate degrees in physics where I concentrated on computational analysis of theoretical energetic materials.
 
-僕は日本語を独学で勉強しています。
+日本語も独学で勉強しています。僕と一緒に日本語を話す練習をしたい方は、コメントでご連絡ください！
