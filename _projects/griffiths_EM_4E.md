@@ -2,7 +2,7 @@
 layout: page
 title: Griffiths Electrodynamics Fourth Eddition
 description: A collection of my solutions to Griffiths Electrodynamics Fourth Eddition
-img:
+img:assets/img/griffiths_em_4e.jpg
 importance: 4
 category: Physics
 ---
