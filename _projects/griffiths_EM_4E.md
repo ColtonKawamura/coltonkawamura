@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Personal Solutions to Griffiths Electrodynamics Fourth Eddition
+title: Griffiths Electrodynamics Fourth Eddition
 description: A collection of my solutions to Griffiths Electrodynamics Fourth Eddition
 img:
 importance: 4
