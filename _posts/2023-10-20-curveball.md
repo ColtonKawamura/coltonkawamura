@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  A Visual Guide to the Uncertainty Principle
+title:  What Causes a Curveball to Curve?
 date: 2023-10-20 21:01:00
 description: 
 tags: fluid mechanics physics
 categories: physics
-thumbnail: assets/img/wave_UP.gif
+thumbnail: assets/img/spinning_ball_vectors.gif
 ---
 If you’ve ever seen a curveball in action, you might have wondered how it works. Is it centripetal force? An optical illusion? The answer may surprise you: it’s friction.
 
