@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Solutions
-permalink: /Solutions/
+title: Projects
+permalink: /Projects/
 description: A growing collection of solutions to physics textbooks.
 nav: true
 nav_order: 2
-display_categories: [work, fun, TEST]
+display_categories: [Physics, work, fun]
 horizontal: false
 ---
 
