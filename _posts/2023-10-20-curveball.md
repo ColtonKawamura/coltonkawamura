@@ -6,8 +6,9 @@ description:
 tags: fluid mechanics physics
 categories: physics
 thumbnail: assets/img/spinning_ball_vectors.gif
-featured: true
-disqus_comments: true
+featured: false
+disqus_comments: false
+related_posts: true
 ---
 If you’ve ever seen a curveball in action, you might have wondered how it works. Is it centripetal force? An optical illusion? The answer may surprise you: it’s friction.
 
