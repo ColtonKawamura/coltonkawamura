@@ -9,3 +9,19 @@ category: Physics
 Chapter 2:
 
 [Problem 2.1](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/1_1/)
+
+<script src="https://giscus.app/client.js"
+        data-repo="coltonkawamura/coltonkawamura"
+        data-repo-id="R_kgDOKjP3YQ"
+        data-category="comments"
+        data-category-id="DIC_kwDOKjP3Yc4CaV1i"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
