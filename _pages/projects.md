@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Projects
-permalink: /Projects/
-description: A growing collection of your cool projects.
+title: Solutions
+permalink: /Solutions/
+description: A growing collection of solutions to physics textbooks.
 nav: true
 nav_order: 2
 display_categories: [work, fun, TEST]
