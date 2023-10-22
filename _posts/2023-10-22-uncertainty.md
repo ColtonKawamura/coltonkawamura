@@ -6,6 +6,9 @@ description:
 tags: quantum mechanics physics
 categories: physics
 thumbnail: assets/img/wave_UP.gif
+featured: true
+disqus_comments: true
+related_posts: true
 ---
 The Heisenberg uncertainly principle captures the experimental and theoretical phenomena that you can’t ever really have full information about both a particle’s position and momentum at the same time. To increase certainty in one, you must give up certainty in the other. Quantitatively, it is described as follows,
 
