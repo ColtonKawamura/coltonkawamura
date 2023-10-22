@@ -8,7 +8,7 @@ category: Physics
 ---
 Chapter 2:
 
-[Problem 2.1](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/1_1/)
+[Problem 2.1](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/2_1/)
 
 <script src="https://giscus.app/client.js"
         data-repo="coltonkawamura/coltonkawamura"
