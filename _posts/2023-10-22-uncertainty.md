@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  A Visual Guide to the Uncertainty Principle
-date: 2023-10-22 21:01:00
+date: 2023-10-21 21:01:00
 description: 
 tags: quantum mechanics physics
 categories: physics
