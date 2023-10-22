@@ -146,6 +146,8 @@ giscus:
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
   lang: en
+  data-repo-id: R_kgDOKjP3YQ
+  data-category-id: DIC_kwDOKjP3Yc4CaV1i
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
