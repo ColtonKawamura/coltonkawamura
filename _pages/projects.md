@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /Projects/
-description: A growing collection of solutions to physics textbooks.
+description: A growing collection of my personal projects.
 nav: true
 nav_order: 2
-display_categories: [Physics, work, fun]
+display_categories: [Physics]
 horizontal: false
 ---
 
