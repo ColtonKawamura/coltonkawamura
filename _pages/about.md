@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Husband</p>
     <p>Father</p>
+    <p>Husband</p>
     <p>Scholar</p>
 
 news: false  # includes a list of news items
