@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a father of three young kids and a proud husband. I'm currently a a program manager in a large industry. In my limited free time, I continue to study physics.
+I'm a father of three young kids and a proud husband. I'm currently a program manager in a large industry. In my limited free time, I continue to study physics.
 
 I earned undergraduate and graduate degrees in physics where I concentrated on computational analysis of theoretical energetic materials.
 
