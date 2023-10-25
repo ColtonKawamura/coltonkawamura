@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Griffiths Electrodynamics Fourth Eddition
+title: Griffiths E&M 4th Ed.
 description: A collection of my solutions to Griffiths Electrodynamics Fourth Eddition
 img: assets/img/griffiths_EM_4e.png
 importance: 4
@@ -9,6 +9,8 @@ category: Physics
 Chapter 2:
 
 [Problem 2.1](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/2_1/)
+
+[Problem 2.2](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/2_2/)
 
 <script src="https://giscus.app/client.js"
         data-repo="coltonkawamura/coltonkawamura"
