@@ -3,7 +3,7 @@ layout: post
 title:  When Does Something Become Quantum?
 date: 2023-10-24 21:01:00
 description: 
-tags: qauntum physics
+tags: quantum physics
 categories: physics
 thumbnail: assets/img/quantum-temperature-1.gif
 featured: false
