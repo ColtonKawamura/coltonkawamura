@@ -12,6 +12,8 @@ Chapter 2:
 
 [Problem 2.2](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/2_2/)
 
+[Problem 2.3](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/2_3/)
+
 <script src="https://giscus.app/client.js"
         data-repo="coltonkawamura/coltonkawamura"
         data-repo-id="R_kgDOKjP3YQ"
