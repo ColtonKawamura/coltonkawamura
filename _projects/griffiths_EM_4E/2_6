@@ -1,0 +1,63 @@
+---
+layout: distill
+title: Problem 2.6
+description: Griffiths Electrodynamics Fourth Edition
+img:
+importance: 4
+category: 
+---
+Please support the amazing author by purchasing the text. These solutions will not make sense without the text, so please purchase it legally. 
+
+My personal solution may differ from the actual, please use this as a guide for your own solution. 
+
+More solutions can be found on my <a href="https://coltonkawamura.github.io/coltonkawamura/Projects/">Projects Page</a>.
+***
+<!----------------------------------------------------------->
+<!----------------------Begin Problem------------------------>
+<!----------------------------------------------------------->
+This one is similar to [Problem 2.5](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/2_5/), but instead of a *ring* we have a *disk* in which the charge $$q$$ is distributed evenly over.
+
+Everything from Problem 2.5 stands where, from the symmetry of the system, we can tell that all horizontal components of the electric field will be canceled leaving us with a vertical component.
+
+So we can start this problem with the electric field caused by a ring of radius $$r$$ at a point $$z$$ above the center of the ring (from Problem 2.5),
+
+$$\begin{align*} 
+\mathbf{E}&=\frac{1}{4\pi\epsilon_{0}}\frac{qz}{\sqrt{z^2+r^2}^3}\hat{z}. \tag{1} \label{1}
+\end{align*}$$ 
+
+Now we notice that the charge is smeared cross each infitesimal thickness of each ring $q=2\pi r \sigma dr$$. So equation \ref{1} becomes
+
+$$\begin{align*} 
+\mathbf{E}&=\frac{1}{4\pi\epsilon_{0}}\frac{2\pi r \sigma drz}{\sqrt{z^2+r^2}^3}\hat{z}. \tag{2} \label{2}
+\end{align*}$$ 
+
+To calculate the electric field at $$z$$ for a *disk* we need to integrate the electric fields from $$r=0$$ to $$r=R$$,
+
+$$\begin{align*} 
+\mathbf{E}&= \frac{2\pi \sigma z}{4\pi\epsilon_{0}}\int_0^R\frac{dr}{\sqrt{z^2+r^2}^3}\hat{z} \\
+&= \frac{2\pi \sigma z}{4\pi\epsilon_{0}}\left[{\frac{1}{z}}-{\frac{1}{\sqrt{R^{2}+z^{2}}}}\right]\hat{z}.
+\end{align*}$$ 
+
+
+<!----------------------------------------------------------->
+<!----------------------End Problem-------------------------->
+<!----------------------------------------------------------->
+***
+If you have any questions or find an error, please leave a comment below and I will reply as soon as I can!
+
+<script src="https://giscus.app/client.js"
+        data-repo="coltonkawamura/coltonkawamura"
+        data-repo-id="R_kgDOKjP3YQ"
+        data-category="comments"
+        data-category-id="DIC_kwDOKjP3Yc4CaV1i"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
