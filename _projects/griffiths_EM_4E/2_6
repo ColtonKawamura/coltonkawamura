@@ -15,6 +15,7 @@ More solutions can be found on my <a href="https://coltonkawamura.github.io/colt
 <!----------------------------------------------------------->
 <!----------------------Begin Problem------------------------>
 <!----------------------------------------------------------->
+
 This one is similar to [Problem 2.5](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/2_5/), but instead of a *ring* we have a *disk* in which the charge $$q$$ is distributed evenly over.
 
 Everything from Problem 2.5 stands where, from the symmetry of the system, we can tell that all horizontal components of the electric field will be canceled leaving us with a vertical component.
