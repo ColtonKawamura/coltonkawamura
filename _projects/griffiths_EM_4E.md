@@ -56,7 +56,7 @@ Chapter 2:
 
 [Problem 2.24](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/2_24/)
 
-[Problem 2.25](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/2_24/)
+[Problem 2.25](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/2_25/)
 
 <script src="https://giscus.app/client.js"
         data-repo="coltonkawamura/coltonkawamura"
