@@ -8,7 +8,7 @@ category: Physics
 ---
 Chapter 2:
 
-[How to Create a New Build](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/2_1/)
+[How to Create a New Build](https://coltonkawamura.github.io/coltonkawamura/projects/lammps/new_build/)
 
 
 
