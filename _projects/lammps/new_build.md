@@ -12,12 +12,12 @@ category:
 1. Go to the directory where LAMMPS is installed.
 2. Create a folder and cd into the new build folder.
 
-```c++
+```bash
 mkdir newbuildname; cd newbuildname 
 ```
 3. Configure the new build with packages that you want.
    
-```c++
+```bash
 cmake ../cmake -D PKG_BODY=on .
 ```
 
@@ -25,7 +25,7 @@ The one above configures a new build with the package "BODY".
 
 4. Create the build.
 
-```c++
+```bash
 cmake --build -D PKG_BODY=on .
 ```
 
