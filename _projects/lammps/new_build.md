@@ -15,11 +15,27 @@ We start with a
 ***
 All you have to do is wrap your code in markdown code tags:
 
-````markdown
+
+
 ```bash
-code code code
+int main(int argc, char const \*argv[])
+{
+    string myString;
+
+    cout << "input a string: ";
+    getline(cin, myString);
+    int length = myString.length();
+
+    char charArray = new char * [length];
+
+    charArray = myString;
+    for(int i = 0; i < length; ++i){
+        cout << charArray[i] << " ";
+    }
+
+    return 0;
+}
 ```
-````
 
 <script src="https://giscus.app/client.js"
         data-repo="coltonkawamura/coltonkawamura"
