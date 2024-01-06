@@ -8,12 +8,6 @@ category:
 ---
 
 
-## Part A
-
-We start with a
-
-***
-All you have to do is wrap your code in markdown code tags:
 
 1. Go to the directory where LAMMPS is installed.
 2. Create a folder and cd into the new build folder.
