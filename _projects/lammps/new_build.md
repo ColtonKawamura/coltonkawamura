@@ -15,27 +15,28 @@ We start with a
 ***
 All you have to do is wrap your code in markdown code tags:
 
-
+1. Go to the directory where LAMMPS is installed.
+2. Create a folder and cd into the new build folder.
 
 ```bash
-int main(int argc, char const \*argv[])
-{
-    string myString;
-
-    cout << "input a string: ";
-    getline(cin, myString);
-    int length = myString.length();
-
-    char charArray = new char * [length];
-
-    charArray = myString;
-    for(int i = 0; i < length; ++i){
-        cout << charArray[i] << " ";
-    }
-
-    return 0;
-}
+mkdir newbuildname; cd newbuildname 
 ```
+3. Configure the new build with packages that you want.
+   
+```bash
+cmake ../cmake -D PKG_BODY=on .
+```
+
+The one above configures a new build with the package "BODY".
+
+4. Create the build.
+
+```bash
+cmake --build -D PKG_BODY=on .
+```
+
+A list of all the packages can be found <a href="
+https://docs.lammps.org/Build_package.html">here</a>. 
 
 <script src="https://giscus.app/client.js"
         data-repo="coltonkawamura/coltonkawamura"
