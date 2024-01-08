@@ -6,7 +6,7 @@ img: assets/img/griffiths_EM_4e.png
 importance: 4
 category: Physics
 ---
-Chapter 2:
+Collection of my personal fixes using LAMMPS.
 
 [How to Create a New Build](https://coltonkawamura.github.io/coltonkawamura/projects/lammps/new_build/)
 
