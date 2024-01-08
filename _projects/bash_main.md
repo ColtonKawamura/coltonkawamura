@@ -4,7 +4,7 @@ title: bash
 description: How-To's for bash
 img: assets/img/griffiths_EM_4e.png
 importance: 4
-category: computational
+category: Computational
 ---
 
 
