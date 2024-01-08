@@ -2,7 +2,7 @@
 layout: page
 title: LAMMPS
 description: Molecular Dynamics Simulator
-img: assets/img/griffiths_EM_4e.png
+img: assets/img/lammps.png
 importance: 4
 category: Physics
 ---
