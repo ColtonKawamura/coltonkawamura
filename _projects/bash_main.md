@@ -2,7 +2,7 @@
 layout: page
 title: bash
 description: How-To's for bash
-img: assets/img/griffiths_EM_4e.png
+img: assets/img/bash.png
 importance: 4
 category: Computational
 ---
