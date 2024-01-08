@@ -26,7 +26,13 @@ The one above configures a new build with the package "BODY".
 4. Create the build.
 
 ```bash
-cmake --build -D PKG_BODY=on .
+cmake -D PKG_BODY=on .
+```
+
+5. Then 
+
+```bash
+make install
 ```
 
 A list of all the packages can be found <a href="
