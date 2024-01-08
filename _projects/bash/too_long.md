@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: zsh: argument list too long: rm
+title: argument list too long
 description: Argument list too long for delete.
 img:
 importance: 4
