@@ -5,7 +5,7 @@ permalink: /Projects/
 description: A growing collection of my personal projects.
 nav: true
 nav_order: 2
-display_categories: [Physics]
+display_categories: [Physics, Computational]
 horizontal: false
 ---
 
