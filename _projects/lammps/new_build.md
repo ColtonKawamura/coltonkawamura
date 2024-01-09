@@ -15,10 +15,10 @@ category:
 ```bash
 mkdir newbuildname; cd newbuildname 
 ```
-3. Configure the new build with packages that you want.
+3. Configure the new build with packages that you want. In this example, i'm using the GRANULAR package.
    
 ```bash
-cmake ../cmake -D PKG_BODY=on .
+cmake ../cmake -D PKG_GRANULAR=yes
 ```
 
 The one above configures a new build with the package "BODY".
@@ -26,13 +26,7 @@ The one above configures a new build with the package "BODY".
 4. Create the build.
 
 ```bash
-cmake -D PKG_BODY=on .
-```
-
-5. Then 
-
-```bash
-make install
+cmake --build .
 ```
 
 A list of all the packages can be found <a href="
