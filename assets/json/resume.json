@@ -47,7 +47,7 @@
       "studyType": "Master's of Science",
       "startDate": "2018-09-01",
       "endDate": "2020-09-01",
-      "score": "",
+      "score": "3.98 GPA",
       "courses": [
         "Quantum Thermochemistry",
         "Advanced Electrodynamics"
@@ -60,7 +60,7 @@
       "studyType": "Bachelor's of Science",
       "startDate": "2008-07-05",
       "endDate": "2012-05-29",
-      "score": "",
+      "score": "3.52 GPA",
       "courses": [
         "Quantum Mechanics",
         "Computational Physics"
@@ -69,9 +69,9 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
+      "title": "Outstanding Thesis Award",
+      "date": "2020-09-01",
+      "awarder": "Naval Posgraduate School",
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
