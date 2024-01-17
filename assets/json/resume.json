@@ -49,19 +49,21 @@
       "endDate": "2020-09-01",
       "score": "",
       "courses": [
-        "Quantum Mechanics"
+        "Quantum Thermochemistry",
+        "Advanced Electrodynamics"
       ]
     },
     {
-      "institution": "US Naval Postgraduate School",
-      "url": "https://nps.edu",
-      "area": "Physics",
-      "studyType": "Master's of Science",
-      "startDate": "2018-09-01",
-      "endDate": "2020-09-01",
+      "institution": "US Naval Academy",
+      "url": "https://usna.edu",
+      "area": "Applied Physics",
+      "studyType": "Bachelor's of Science",
+      "startDate": "2008-07-05",
+      "endDate": "2012-05-29",
       "score": "",
       "courses": [
-        "Quantum Mechanics"
+        "Quantum Mechanics",
+        "Computational Physics"
       ]
     }
   ],
