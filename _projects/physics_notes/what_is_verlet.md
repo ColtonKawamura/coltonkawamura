@@ -13,24 +13,24 @@ Our  goal is to throw this information into a computer and see where those parti
 
 With basic physics we know that,
 
-$$\begin{aligned} 
+$$\begin{align*} 
 \mathbf{r}(t+d t)=\mathbf{r}(t)+\mathbf{v}(t)d t+{\frac{1}{2}}\mathbf{a}(t)d t^{2} \tag{1} \label{1}
-\end{aligned}$$
+\end{align*}$$
 
 for some $$dt$$ that we give the computer.
 
 Now, to figure out what the velocities evolve as over time, we have another basic equation,
 
-$$\begin{aligned} 
+$$\begin{align*} 
 \mathbf{v}(t+d t)=\mathbf{v}(t)+\mathbf{a}(t)d t. \tag{2} \label{2}
-\end{aligned}$$
+\end{align*}$$
 
 Now all that is left is to find what the acceleration is. We can do this with Newton's 2nd Law,
 
-$$\begin{aligned} 
+$$\begin{align*} 
 \mathbf{F}&=m\mathbf{a}\\
 \mathbf{a}&=\frac{\mathbf{F}}{m}.
-\end{aligned}$$
+\end{align*}$$
 
 And there you have it. With equations \ref{1} and \ref{2}, as well as the initial positions, velocities, and forces between particles, we can run a basic Verlet integration simulation.
 ***
