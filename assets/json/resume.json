@@ -67,14 +67,14 @@
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Outstanding Thesis Award",
-      "date": "2020-09-01",
-      "awarder": "Naval Posgraduate School",
-      "summary": "This award is presented to a Navy or Marine Corps graduate based on academic achievement, experience tour performance, thesis work, and demonstration of those qualities, indicative of an outstanding military officer"
-    }
-  ],
+  // "awards": [
+  //   {
+  //     "title": "Outstanding Thesis Award",
+  //     "date": "2020-09-01",
+  //     "awarder": "Naval Posgraduate School",
+  //     "summary": "This award is presented to a Navy or Marine Corps graduate based on academic achievement, experience tour performance, thesis work, and demonstration of those qualities, indicative of an outstanding military officer"
+  //   }
+  // ],
   "certificates": [],
   "publications": [],
   "skills": [],
