@@ -33,6 +33,7 @@ $$\begin{align*}
 \end{align*}$$
 
 And there you have it. With equations \ref{1} and \ref{2}, as well as the initial positions, velocities, and forces between particles, we can run a basic Verlet integration simulation.
+
 ***
 
 If you have any questions or find an error, please leave a comment below and I will reply as soon as I can!
