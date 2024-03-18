@@ -2,7 +2,7 @@
 layout: page
 title: Physics Notes
 description: A collection of notes for physics.
-img: assets/img/griffiths_EM_4e.png
+img: assets/img/physics_thumb.png
 importance: 4
 category: Physics
 ---
