@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Math Notes and Idenities
+title: Math Notes and Identities
 description: A collection of notes for references in physics.
 img: assets/img/physics_thumb.png
 importance: 4
