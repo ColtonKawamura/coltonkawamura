@@ -16,8 +16,9 @@ read -p "Tags? " tags
 read -p "Categories? " categories
 read -p "Image_name? " image_name
 
-# Define the file path
+# Define the file path for the post and image
 file_path="/Users/coltonkawamura/Documents/GitHub/coltonkawamura/_posts/${date}-${short_title}.md"
+image_destination="/Users/coltonkawamura/Documents/GitHub/coltonkawamura/assets/img/."
 
 # Create the markdown file and write the content
 cat > "$file_path" <<EOF
@@ -57,4 +58,4 @@ Text
 EOF
 
 # Find and move the image file
-mv "~/Desktop/${image_name}.png" "$image_destination"
+mv "$HOME/Desktop/${image_name}.png" "$image_destination"

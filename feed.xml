@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://coltonkawamura.github.io/coltonkawamura/feed.xml" rel="self" type="application/atom+xml"/><link href="https://coltonkawamura.github.io/coltonkawamura/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-03-22T17:30:36+00:00</updated><id>https://coltonkawamura.github.io/coltonkawamura/feed.xml</id><title type="html">blank</title><subtitle>My repository for my studies. </subtitle><entry><title type="html">Adding User Snippets to Visual Studio Code</title><link href="https://coltonkawamura.github.io/coltonkawamura/blog/2024/vs_code_snippets/" rel="alternate" type="text/html" title="Adding User Snippets to Visual Studio Code"/><published>2024-03-21T21:01:00+00:00</published><updated>2024-03-21T21:01:00+00:00</updated><id>https://coltonkawamura.github.io/coltonkawamura/blog/2024/vs_code_snippets</id><content type="html" xml:base="https://coltonkawamura.github.io/coltonkawamura/blog/2024/vs_code_snippets/"><![CDATA[<p>If you want to add a user snipped to VS Code, first choose the language or filetype you want it to be activated on. In this example, I’ll use Markdown. Here’s the steps.</p> <ol> <li>Open command palette with CMD+SHIFT+P</li> <li>Find “markdown.json”</li> <li>Enter your snippet, in this example:</li> </ol> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://coltonkawamura.github.io/coltonkawamura/feed.xml" rel="self" type="application/atom+xml"/><link href="https://coltonkawamura.github.io/coltonkawamura/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-03-22T17:51:40+00:00</updated><id>https://coltonkawamura.github.io/coltonkawamura/feed.xml</id><title type="html">blank</title><subtitle>My repository for my studies. </subtitle><entry><title type="html">Blog Post Generator</title><link href="https://coltonkawamura.github.io/coltonkawamura/blog/2024/blog_post_generator/" rel="alternate" type="text/html" title="Blog Post Generator"/><published>2024-03-22T13:41:00+00:00</published><updated>2024-03-22T13:41:00+00:00</updated><id>https://coltonkawamura.github.io/coltonkawamura/blog/2024/blog_post_generator</id><content type="html" xml:base="https://coltonkawamura.github.io/coltonkawamura/blog/2024/blog_post_generator/"><![CDATA[<p>It’s a simple shell script, but this is how I can generate a post template with all the needed metadata. It requires the post image to already exists, though!</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+
+<span class="c"># Prompt for post title and read into variable</span>
+<span class="nb">read</span> <span class="nt">-p</span> <span class="s2">"What is the title of your post? "</span> title
+
+<span class="c"># Prompt for short title and read into variable</span>
+<span class="nb">read</span> <span class="nt">-p</span> <span class="s2">"Short_title? "</span> short_title
+
+<span class="c"># Get current date and time, store in variables</span>
+<span class="nv">date_time</span><span class="o">=</span><span class="si">$(</span><span class="nb">date</span> <span class="s2">"+%Y-%m-%d %H:%M:%S"</span><span class="si">)</span>
+<span class="nb">date</span><span class="o">=</span><span class="si">$(</span><span class="nb">date</span> <span class="s2">"+%Y-%m-%d"</span><span class="si">)</span>
+
+<span class="c"># Prompt for description, tags, categories, and image name</span>
+<span class="nb">read</span> <span class="nt">-p</span> <span class="s2">"Description? "</span> description
+<span class="nb">read</span> <span class="nt">-p</span> <span class="s2">"Tags? "</span> tags
+<span class="nb">read</span> <span class="nt">-p</span> <span class="s2">"Categories? "</span> categories
+<span class="nb">read</span> <span class="nt">-p</span> <span class="s2">"Image_name? "</span> image_name
+
+<span class="c"># Define the file path for the post and image</span>
+<span class="nv">file_path</span><span class="o">=</span><span class="s2">"/yourpath/_posts/</span><span class="k">${</span><span class="nv">date</span><span class="k">}</span><span class="s2">-</span><span class="k">${</span><span class="nv">short_title</span><span class="k">}</span><span class="s2">.md"</span>
+<span class="nv">image_destination</span><span class="o">=</span><span class="s2">"/yourpath/assets/img/."</span>
+
+<span class="c"># Create the markdown file and write the content</span>
+<span class="nb">cat</span> <span class="o">&gt;</span> <span class="s2">"</span><span class="nv">$file_path</span><span class="s2">"</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh">
+---
+layout: post
+title: </span><span class="nv">$title</span><span class="sh">
+date: </span><span class="nv">$date_time</span><span class="sh">
+description: </span><span class="nv">$description</span><span class="sh">
+tags: </span><span class="nv">$tags</span><span class="sh">
+categories: </span><span class="nv">$categories</span><span class="sh">
+thumbnail: assets/img/</span><span class="k">${</span><span class="nv">image_name</span><span class="k">}</span><span class="sh">.png
+featured: false
+disqus_comments: false
+related_posts: true
+---
+
+Text
+
+***
+</span><span class="no">
+EOF
+
+</span><span class="c"># Find and move the image file</span>
+<span class="nb">mv</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/Desktop/</span><span class="k">${</span><span class="nv">image_name</span><span class="k">}</span><span class="s2">.png"</span> <span class="s2">"</span><span class="nv">$image_destination</span><span class="s2">"</span>
+
+</code></pre></div></div> <hr/> <script src="https://giscus.app/client.js" data-repo="coltonkawamura/coltonkawamura" data-repo-id="R_kgDOKjP3YQ" data-category="comments" data-category-id="DIC_kwDOKjP3Yc4CaV1i" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async=""> </script>]]></content><author><name></name></author><category term="computational"/><category term="vs-code"/><summary type="html"><![CDATA[A simple bash script that creates blog post templates for me in the right place with the right stuff.]]></summary></entry><entry><title type="html">Adding User Snippets to Visual Studio Code</title><link href="https://coltonkawamura.github.io/coltonkawamura/blog/2024/vs_code_snippets/" rel="alternate" type="text/html" title="Adding User Snippets to Visual Studio Code"/><published>2024-03-21T21:01:00+00:00</published><updated>2024-03-21T21:01:00+00:00</updated><id>https://coltonkawamura.github.io/coltonkawamura/blog/2024/vs_code_snippets</id><content type="html" xml:base="https://coltonkawamura.github.io/coltonkawamura/blog/2024/vs_code_snippets/"><![CDATA[<p>If you want to add a user snipped to VS Code, first choose the language or filetype you want it to be activated on. In this example, I’ll use Markdown. Here’s the steps.</p> <ol> <li>Open command palette with CMD+SHIFT+P</li> <li>Find “markdown.json”</li> <li>Enter your snippet, in this example:</li> </ol> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
     </span><span class="nl">"LaTeX align* environment in Markdown"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
         </span><span class="nl">"prefix"</span><span class="p">:</span><span class="w"> </span><span class="s2">"align"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"body"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
