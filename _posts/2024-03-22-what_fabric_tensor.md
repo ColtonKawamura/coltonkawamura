@@ -42,9 +42,9 @@ Well, since $R_{11}=0.8$ is large compared to the others, the fabric tensor tell
 
 To summarize this example:
 
-- $R_{11}=0.8$: Large value indicates a strong alignment of contacts along the horizontal axis.
-- $R_{22}=0.2$: Smaller value shows less alignment along the vertical axis
-- $R_{12}=R_{21}=0.1$: Small values indicate minor correlation between horizontal and vertical contact orientations.
+- $R_{11}=0.8$ : Large value indicates a strong alignment of contacts along the horizontal axis.
+- $R_{22}=0.2$ : Smaller value shows less alignment along the vertical axis
+- $R_{12}=R_{21}=0.1$ : Small values indicate minor correlation between horizontal and vertical contact orientations.
 
 ## Fabric Tensors and Anisotropy
 
