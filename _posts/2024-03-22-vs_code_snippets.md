@@ -3,8 +3,8 @@ layout: post
 title: Adding User Snippets to Visual Studio Code
 date: 2024-3-22 21:01:00
 description: 
-tags: quantum physics
-categories: physics
+tags: 
+categories: computational
 thumbnail: assets/img/json.png
 featured: false
 disqus_comments: false
