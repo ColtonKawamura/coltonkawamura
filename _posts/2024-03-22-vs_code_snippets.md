@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding User Snippets to Visual Studio Code
-date: 2024-3-22 21:01:00
+date: 2024-3-21 21:01:00
 description: 
 tags: vs-code
 categories: computational
