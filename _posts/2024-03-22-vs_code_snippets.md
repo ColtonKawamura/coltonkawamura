@@ -3,7 +3,7 @@ layout: post
 title: Adding User Snippets to Visual Studio Code
 date: 2024-3-22 21:01:00
 description: 
-tags: 
+tags: vs-code
 categories: computational
 thumbnail: assets/img/json.png
 featured: false
