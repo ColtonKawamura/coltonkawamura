@@ -1,13 +1,19 @@
 ---
 layout: page
-title: Physics Notes
-description: A collection of notes for physics.
+title: Math Notes and Idenities
+description: A collection of notes for references in physics.
 img: assets/img/physics_thumb.png
 importance: 4
 category: Physics
 ---
 
-[What is a Verlet Integration](https://coltonkawamura.github.io/coltonkawamura/projects/physics_notes/what_is_verlet/)
+# Expansions
+## Taylor Series Expansions
+Expanding $f(x)$ about a point $a$
+$$\begin{align*}
+f(x) = f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2 + \frac{f'''(a)}{3!}(x - a)^3 + \cdots + \frac{f^{(n)}(a)}{n!}(x - a)^n + \cdots
+\end{align*}$$
+
 
 <script src="https://giscus.app/client.js"
         data-repo="coltonkawamura/coltonkawamura"
