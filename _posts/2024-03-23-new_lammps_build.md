@@ -2,7 +2,7 @@
 layout: post
 title: How to Make a New Build in LAMMPS
 date: 2024-03-23 08:43:03
-description: A quick not to make a new build in LAMMPS
+description: A quick note to make a new build in LAMMPS
 tags: lammps
 categories: physics
 thumbnail: assets/img/lammps.png
