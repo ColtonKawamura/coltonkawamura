@@ -70,7 +70,7 @@ To extract the isotropic parts, leaving the anisotrpic tensor, we would take out
 Let's do it for this example. The isotropic part (sometimes called the spherical or hydrostatic part) is
 
 $$\begin{align*} 
-R_{ij}' &= R_{ij} - \frac{1}{2}\text{Tr}(R_{ij})\text{I}\\
+R_{ij}' &= R_{ij} - \frac{1}{2}\text{Tr}(R_{ij})\delta_{ij}\\
 &=\begin{bmatrix}
 0.8 & 0.1 \\
 0.1 & 0.2
