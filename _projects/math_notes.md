@@ -14,12 +14,19 @@ $$\begin{align*}
 f(x) = f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2 + \frac{f'''(a)}{3!}(x - a)^3 + \cdots + \frac{f^{(n)}(a)}{n!}(x - a)^n + \cdots
 \end{align*}$$
 
+# Operators
+## Commutators
+$$\begin{align*}
+[\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}
+\end{align*}$$
+
 # Vector Operations
 ## Derivative 
 $$\begin{align*}
 \frac{d}{dt} (\vec{A} \times \vec{B}) = \left( \frac{d\vec{A}}{dt} \times \vec{B} \right) + \left( \vec{A} \times \frac{d\vec{B}}{dt} \right)
 
 \end{align*}$$
+
 <script src="https://giscus.app/client.js"
         data-repo="coltonkawamura/coltonkawamura"
         data-repo-id="R_kgDOKjP3YQ"
