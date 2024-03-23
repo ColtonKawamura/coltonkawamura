@@ -23,7 +23,7 @@ R_{21} & R_{22}
 \end{bmatrix}.
 \end{align*}$$
 
-Each element is a measure of how much the contacts are aligned in that direction. So, if $R_{11}$ is large compared to the others, that means contacts are primarily aligned in direction of axis $1$. If $R_{12}$ is large compared to the others, that means there is some correlation between the axis $1$ and $2$.
+Each element is a measure of how much the contacts are aligned in that direction. So, if $$R_{11}$$ is large compared to the others, that means contacts are primarily aligned in direction of axis $1$. If $$R_{12}$$ is large compared to the others, that means there is some correlation between the axis $$1$$ and $$2$$.
 
 Let's do an example with some numbers in 2D. We define axis $1$ as the horizontal axis and axis $2$ as the vertical.
 
@@ -38,13 +38,13 @@ R_{ij} = \begin{bmatrix}
 
 What does this fabric tensor tell us about the system?
 
-Well, since $R_{11}=0.8$ is large compared to the others, the fabric tensor tells us that the contacts are strongly aligned with axis $1$, the horiztonal axis. Since, $R_{22}=.2$ is small compared to $R_{11}=0.8$, we can tell there is some, but less alignment of contacts in the vertcial direction.
+Well, since $$R_{11}=0.8$$ is large compared to the others, the fabric tensor tells us that the contacts are strongly aligned with axis $1$, the horiztonal axis. Since, $$R_{22}=.2$$ is small compared to $$R_{11}=0.8$$, we can tell there is some, but less alignment of contacts in the vertcial direction.
 
 To summarize this example:
 
-- $R_{11}=0.8$ : Large value indicates a strong alignment of contacts along the horizontal axis.
-- $R_{22}=0.2$ : Smaller value shows less alignment along the vertical axis
-- $R_{12}=R_{21}=0.1$ : Small values indicate minor correlation between horizontal and vertical contact orientations.
+- $$R_{11}=0.8$$ : Large value indicates a strong alignment of contacts along the horizontal axis.
+- $$R_{22}=0.2$$ : Smaller value shows less alignment along the vertical axis
+- $$R_{12}=R_{21}=0.1$$ : Small values indicate minor correlation between horizontal and vertical contact orientations.
 
 ## Fabric Tensors and Anisotropy
 
