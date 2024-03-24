@@ -14,6 +14,7 @@ y &= r \sin \theta \sin \phi \\
 z &= r \cos \theta
 \end{align*}$$
 
+
 $$\begin{align*}
 \hat{x} &= \sin \theta \cos \phi \, \hat{r} + \cos \theta \cos \phi \, \hat{\theta} - \sin \phi \, \hat{\phi} \\
 \hat{y} &= \sin \theta \sin \phi \, \hat{r} + \cos \theta \sin \phi \, \hat{\theta} + \cos \phi \, \hat{\phi} \\
@@ -34,37 +35,31 @@ $$\begin{align*}
 \end{align*}$$
 
 ## Cartesian to Cylindrical
-$$
-\begin{align*}
+$$\begin{align*}
 x &= s \cos \phi \\
 y &= s \sin \phi \\
 z &= z
-\end{align*}
+\end{align*}$$
 
-$$
 $$\begin{align*}
 \hat{x} &= \cos \phi \, \hat{s} - \sin \phi \, \hat{\phi} \\
 \hat{y} &= \sin \phi \, \hat{s} + \cos \phi \, \hat{\phi} \\
 \hat{z} &= \hat{z}
-\end{align*}
-$$
+\end{align*}$$
 
 ## Cylindrical to Cartesian
 $$\begin{align*}
 s &= \sqrt{x^2 + y^2} \\
 \phi &= \tan^{-1}\left(\frac{y}{x}\right) \\
 z &= z
-\end{align*}
-$$
+\end{align*}$$
 
-$$
-\begin{align*}
+$$\begin{align*}
 \hat{s} &= \cos \phi \, \hat{x} + \sin \phi \, \hat{y} \\
 \hat{\phi} &= -\sin \phi \, \hat{x} + \cos \phi \, \hat{y} \\
 \hat{z} &= \hat{z}
-\end{align*}
+\end{align*}$$
 
-$$
 # Expansions
 ## Taylor Series Expansions
 Expanding $f(x)$ about a point $a$
