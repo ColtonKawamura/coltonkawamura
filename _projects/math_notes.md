@@ -81,9 +81,9 @@ $$\begin{align*}
 
 # Vector Operations
 ## Derivative 
+
 $$\begin{align*}
 \frac{d}{dt} (\vec{A} \times \vec{B}) = \left( \frac{d\vec{A}}{dt} \times \vec{B} \right) + \left( \vec{A} \times \frac{d\vec{B}}{dt} \right)
-
 \end{align*}$$
 
 <script src="https://giscus.app/client.js"
