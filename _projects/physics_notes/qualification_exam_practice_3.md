@@ -7,7 +7,16 @@ importance: 4
 category: 
 ---
 
+## Problem
+Calculate the capacity $$C$$ of a spherical condenser of inner radius $$R_1$$ and outer radius $$R_2＄＄, which is filled with a dielectric varying as
 
+$$\begin{align*}
+\epsilon= \epsilon_0 + \epsilon_1 \cos^2 \theta
+\end{align*}$$
+
+where $$\epsilon_1$$  is a constant and $$\theta$$  is the polar angle.
+
+## Solution 
 We want to find the capacitance, so we can start with,
 
 $$\begin{align*} 
@@ -55,16 +64,42 @@ Q_{enc}&= E 2\pi r^2 \int_{1}^{-1} (\epsilon_0 + \epsilon_1 u^2) \sin \theta \le
 &= E 2\pi r^2 \int_{-1}^{1} (\epsilon_0 + \epsilon_1 u^2) \, du \\
 &= E 2\pi r^2 \left(\epsilon_0 u \bigg|_{-1}^{1} + \frac{\epsilon_1 u^3}{3} \bigg|_{-1}^{1}\right) \\
 &= E 2\pi r^2 \left(2\epsilon_0 + \frac{2\epsilon_1}{3}\right) \\
-&= E 4\pi r^2 \left(\epsilon_0 + \frac{\epsilon_1}{3}\right)
+&= E 4\pi r^2 \left(\epsilon_0 + \frac{\epsilon_1}{3}\right) \tag{2} \label{2}
 \end{align*}$$
 
 Now that we know the $Q_{enc}$ between the sphereical "plates," we go back to the definition of capacitance,
 
 $$\begin{align*}
-C=\frac{Q}{V}.
+C=\frac{Q}{V}. \tag{3} \labe{3}
 \end{align*}$$
 
-But to calulate $V$, 
+We could input our relation for charge in \ref{2}, but we're still left with calculating potential. Let's take a look at what calculating $$V$$ would look like:
+
+$$\begin{align*}
+V = \int_{1}^{2} \vec{E} \cdot d\vec{l}.
+
+\end{align*}$$
+
+We get an expression for $$E$$ from \ref{2},
+
+$$\begin{align*}
+Q_{enc}&=E 4\pi r^2 \left(\epsilon_0 + \frac{\epsilon_1}{3}\right) \\
+\vec{E}&=\frac{Q}{4 \pi r^2} \left( \frac{1}{\epsilon_0 + \frac{\epsilon_1}{3}} \right)
+\hat{r}.
+\end{align*}$$
+
+We get the $$\hat{r}$$ because we have radial symmetry. Now we place this into equation \ref{3} to solve for our capacitance expecting the $$Q$$ to cancel out,
+
+$$\begin{align*}
+C = Q \left(\int_{R_1}^{R_2} \left( \frac{Q}{4 \pi r^2}  \epsilon_0 + \frac{\epsilon_1}{3} \right)  \hat{r} \cdot d\vec{r} \right)^{-1} \\
+= 4 \pi (\epsilon_0 + \epsilon_1/3) \left[ -\frac{1}{r} \right]_{R_1}^{R_2} \\
+= 4 \pi (\epsilon_0 + \epsilon_1/3) \left( \frac{1}{R_1} + \frac{1}{R_2} \right)^{-1} \\
+= 4 \pi (\epsilon_0 + \epsilon_1/3) \left( \frac{R_2 - R_1}{R_1 R_2} \right)^{-1} \\
+= 4 \pi (\epsilon_0 + \epsilon_1/3) \frac{R_1 R_2}{R_2 - R_1}
+
+\end{align*}$$
+
+
 ***
 
 If you have any questions or find an error, please leave a comment below and I will reply as soon as I can!
