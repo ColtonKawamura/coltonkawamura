@@ -1,19 +1,15 @@
 ---
-layout: post
-title: Using Limit Definition of Derivative in Research
-date: 2024-03-25 10:49:31
-description: Pre-Calculus has it uses in real physics.
-tags: 
-categories: physics
-thumbnail: assets/img/limit_definition_deriv.png
-featured: false
-disqus_comments: false
-related_posts: true
+layout: page
+title: Favorite Problems
+description: A collection of my solutions to some of my favorite physics problems.
+img: assets/img/fav_physics.png
+importance: 4
+category: Physics
 ---
 
-Text
+[Gauss's Law and Capacitance](https://coltonkawamura.github.io/coltonkawamura/projects/favorite_physics_problems/qualification_exam_practice_3/)
 
-***
+[Compton Effect](https://coltonkawamura.github.io/coltonkawamura/projects/favorite_physics_problems/qual_question_compton/)
 
 <script src="https://giscus.app/client.js"
         data-repo="coltonkawamura/coltonkawamura"

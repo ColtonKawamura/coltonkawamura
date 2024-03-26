@@ -6,7 +6,7 @@ img: assets/img/griffiths_EM_4e.png
 importance: 4
 category: Physics
 ---
-Chapter 2:
+# Chapter 2:
 
 [Problem 2.1](https://coltonkawamura.github.io/coltonkawamura/projects/griffiths_EM_4E/2_1/)
 
