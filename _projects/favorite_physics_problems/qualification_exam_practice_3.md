@@ -70,7 +70,7 @@ Q_{enc}&= E 2\pi r^2 \int_{1}^{-1} (\epsilon_0 + \epsilon_1 u^2) \sin \theta \le
 Now that we know the $Q_{enc}$ between the sphereical "plates," we go back to the definition of capacitance,
 
 $$\begin{align*}
-C=\frac{Q}{V}. \tag{3} \labe{3}
+C=\frac{Q}{V}. \tag{3} \label{3}
 \end{align*}$$
 
 We could input our relation for charge in \ref{2}, but we're still left with calculating potential. Let's take a look at what calculating $$V$$ would look like:
