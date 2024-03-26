@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
-nav: false
+title: Blogs
+nav: true
 nav_order: 7
 dropdown: true
 children:
-    - title: publications
-      permalink: /publications/
+    - title: Physics
+      permalink: /blog/category/physics/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Computational
+      permalink: /blog/category/computational/
 ---
