@@ -27,6 +27,8 @@ $$\begin{align*}
  
 
 ## Sphereical to Cartesian
+ 
+
 $$\begin{align*}
 r &= \sqrt{x^2 + y^2 + z^2} \\
 \theta &= \tan^{-1}\left(\frac{\sqrt{x^2 + y^2}}{z}\right) \\
@@ -44,6 +46,8 @@ $$\begin{align*}
  
 
 ## Cartesian to Cylindrical
+ 
+
 $$\begin{align*}
 x &= s \cos \phi \\
 y &= s \sin \phi \\
@@ -61,6 +65,8 @@ $$\begin{align*}
  
 
 ## Cylindrical to Cartesian
+ 
+
 $$\begin{align*}
 s &= \sqrt{x^2 + y^2} \\
 \phi &= \tan^{-1}\left(\frac{y}{x}\right) \\
@@ -80,6 +86,8 @@ $$\begin{align*}
 # Expansions
 ***
 ## Taylor Series Expansions
+ 
+
 Expanding $f(x)$ about a point $a$
 $$\begin{align*}
 f(x) = f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2 + \frac{f'''(a)}{3!}(x - a)^3 + \cdots + \frac{f^{(n)}(a)}{n!}(x - a)^n + \cdots
@@ -90,6 +98,8 @@ f(x) = f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2 + \frac{f'''(a)}{3!}(x -
 # Operators
 ***
 ## Commutators
+ 
+
 $$\begin{align*}
 [\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}
 \end{align*}$$
@@ -99,6 +109,8 @@ $$\begin{align*}
 # Summations
 ***
 ## Dirac Summations
+ 
+
 $$\begin{align*}
 \sum_n \sum_m \delta_{nm} f_n(x) = \sum_n f_n(x)
 \end{align*}$$
@@ -109,8 +121,6 @@ $$\begin{align*}
 ***
 ## Derivative 
  
- 
-
 $$\begin{align*}
 \frac{d}{dt} (\vec{A} \times \vec{B}) = \left( \frac{d\vec{A}}{dt} \times \vec{B} \right) + \left( \vec{A} \times \frac{d\vec{B}}{dt} \right)
 \end{align*}$$
