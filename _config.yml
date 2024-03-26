@@ -263,7 +263,7 @@ jekyll-archives:
     category: '/blog/category/:name/'
 
 #display_tags: ['quantum', 'classical', 'electricity-and-magnetism', 'math'] # these tags will be displayed on the front page of your blog
-display_categories: ['physics', 'Computational'] # these categories will be displayed on the front page of your blog
+display_categories: ['Physics', 'Computational'] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
