@@ -48,7 +48,7 @@ E'=p'c. \tag{5}
 Substitude these relations in equation \ref{1}, we have,
 
 $$\begin{align*}
-pc+mc^2&=p'c+\sqrt{ \left(p_e' c\right)^2+\left( mc^2\right)^2}
+pc+mc^2&=p'c+\sqrt{ \left(p_e' c\right)^2+\left( mc^2\right)^2} \tag{6} \label{6}
 \end{align*}$$
 
 for our energy relation.
@@ -62,13 +62,27 @@ p &= p'+p_e'.
 Remember that momentum is a *vector*,
 
 $$\begin{align*}
-\vec{p} &= \vec{p}'+\vec{p_e}'.
+\vec{p} &= \vec{p}'+\vec{p_e}'. \tag{7} \label{7}
 \end{align*}$$
 
 ## Part B Solution
 
+This part is asking about angles, so that's a hint we should find a dot product between two momenta. Let's exppand \ref{7} to get it.
+
+$$\begin{align*}
+p_{e}^{2} = p^{2} + p'^{2} - 2pp' \cos(\theta)
+\end{align*}$$
+
+Now if we also expand out the energy conservation in \ref{6}, we can find an expression for $$p_e$$,
+
+$$\begin{align*}
+p^{2}c^{2} + 2pc(m c^{2}) + m^{2}c^{4} &= p'^{2}c^{2} + p_{e}^{2}c^{2} + m^{2}c^{4}\\
+p^{2}c^{2} + 2pcm^{2}c^{2} + m^{2}c^{4} &= p'^{2}c^{2} + p_{e}^{2}c^{2} + m^{2}c^{4}\\
+p^{2} + 2pcm^{2} &= p'^{2} + p_{e}^{2} \\
+p^{2} - p'^{2} &= p_{e}^{2} + 2mc(p - p')
 
 
+\end{align*}$$
 ***
 
 If you have any questions or find an error, please leave a comment below and I will reply as soon as I can!
