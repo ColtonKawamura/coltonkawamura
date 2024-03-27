@@ -78,7 +78,7 @@ $$\begin{align*}
 u_x\big|_{x_i+d}-u_x\big|_{x_i-d}
 \end{align*}$$
 
-term, but where the distance is $$2d$$ between points. But since $$d$$ is small anways, $$2 d \approx d$$, equation \ref{5} becomes a wave equation,
+term, but where the distance is $$2d$$ between points. But since $$d$$ is small anways, $$2 d^2 \approx d^2$$, equation \ref{5} becomes a wave equation,
 
 $$\begin{align*}
 m \ddot{u} &=kd\left(u_x\big|_{x_i+d}-u_x\big|_{x_i-d} \right) \\
