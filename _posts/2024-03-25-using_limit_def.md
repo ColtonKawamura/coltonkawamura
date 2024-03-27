@@ -36,7 +36,7 @@ $$\begin{align*}
 m \ddot{u} &= -k(u_{i}-u_{i-1})-k(u_{i}-u_{i+1}), \tag{2} \label{2}
 \end{align*}$$
 
-where the values of the the dispacement's will account for the direction of the forces relative to the $$x$$-axis situated at the center of the $$i$$th particle.
+where the values of the the dispacements will account for the direction of the forces relative to the $$x$$-axis situated at the center of the $$i$$th particle.
 
 Now look at the $$u_i-u_{i-1} $$ term, notice can express it as a function of positions separated by a distance $$d$$,
 
@@ -72,7 +72,7 @@ m \ddot{u} &= -k\left( u_x\big|_{x_i-d}  \,d\right)-k\left(-u_x\big|_{x_i+d} \, 
 &=kd\left(u_x\big|_{x_i+d}-u_x\big|_{x_i-d} \right). \tag{5} \label{5}
 \end{align*}$$
 
-Now apply the same method for the $$u_x\big|_{x_i+d}-u_x\big|_{x_i-d} $$ term, but where the distance is $$2d$$ between points. But since $$d$$ is small anways, $$2d\approx d$$, equation \ref{5} becomes a wave equation,
+Now apply the same method for the $$u_x\big|_{x_i+d}-u_x\big|_{x_i-d}$$ term, but where the distance is $$2d$$ between points. But since $$d$$ is small anways, $$2d\approx d$$, equation \ref{5} becomes a wave equation,
 
 $$\begin{align*}
 m \ddot{u} &=kd\left(u_x\big|_{x_i+d}-u_x\big|_{x_i-d} \right) \\
