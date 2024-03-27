@@ -6,7 +6,7 @@
     "email": "",
     "phone": "",
     "url": "https://coltonkawamura.github.io/coltonkawamura/",
-    "summary": "Computational Physicist currently focusing on acoustic properties of granular materials with experience in program management. ",
+    "summary": "Physicist currently focusing on acoustic properties of granular materials with experience in program management. ",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,18 +24,18 @@
   },
   "work": [
     {
-      "name": "US Naval Officer",
-      "position": "Special Operations (EOD)",
-      "url": "https://www.navy.com/careers-benefits/careers/special-operations/explosive-ordnance-disposal-technician",
-      "startDate": "2012-05-29",
-      "endDate": "2024-02-29",
-      "summary": "",
-      "highlights": [
-        "Combat Operations",
-        "Mix Gas Diving and Supervising",
-        "Demolition Operations",
-        "Recompression Chamber Operations"
-      ]
+      "name": "Research Physicist",
+      "position": "Faculty Associate",
+      "url": "https://nps.edu/web/physics",
+      "startDate": "2024-04",
+      "endDate": "Present",
+      // "summary": "",
+      // "highlights": [
+      //   "Combat Operations",
+      //   "Mix Gas Diving and Supervising",
+      //   "Demolition Operations",
+      //   "Recompression Chamber Operations"
+      // ]
     }
   ],
   "volunteer": [],
