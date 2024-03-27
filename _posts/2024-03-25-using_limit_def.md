@@ -30,7 +30,7 @@ Let's showcase its use for three particles with equal masses ($$m$$) and radii (
     </div>
 </div>
 
-Let's set up Newton's second law, with the notation that $$u_x$$ is a spacial derivative,
+Let's set up Newton's second law,
 
 $$\begin{align*}
 m \ddot{u} &= -k(u_{i}-u_{i-1})-k(u_{i}-u_{i+1}), \tag{2} \label{2}
@@ -50,7 +50,7 @@ $$\begin{align*}
 \frac{du}{dx}\bigg|_{x_i-d} = \lim_{d \to 0} \frac{u(x_{i-1}+d)-u(x_{i-1})}{d}.
 \end{align*}$$
 
-And with some manipulation,
+And with some algebr and notation that $$u_x$$ is a spacial derivative,
 
 $$\begin{align*}
  u_x\big|_{x_i-d}  \,d&=u(x_{i-1}+d)-u(x_{i-1})\\
