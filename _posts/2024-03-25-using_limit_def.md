@@ -54,7 +54,7 @@ And with some algebr and notation that $$u_x$$ is a spacial derivative,
 
 $$\begin{align*}
  u_x\big|_{x_i-d}  \,d&=u(x_{i-1}+d)-u(x_{i-1})\\
-&= u_{i}-u_{i-1}. \tag{3} \labe{3}
+&= u_{i}-u_{i-1}. \tag{3} \label{3}
 \end{align*}$$
 
 Now apply to $$u_i-u_{i+1} $$,
@@ -69,7 +69,7 @@ Now we substitute equations \ref{3} and \ref{4} into \ref{2},
 
 $$\begin{align*}
 m \ddot{u} &= -k\left( u_x\big|_{x_i-d}  \,d\right)-k\left(-u_x\big|_{x_i+d} \, d\right)\\
-&=kd\left(u_x\big|_{x_i+d}-u_x\big|_{x_i-d} \right). \tag{5} \ref{5}
+&=kd\left(u_x\big|_{x_i+d}-u_x\big|_{x_i-d} \right). \tag{5} \label{5}
 \end{align*}$$
 
 Now apply the same method for the $$u_x\big|_{x_i+d}-u_x\big|_{x_i-d} $$ term, but where the distance is $$2d$$ between points. But since $$d$$ is small anways, $$2d\approx d$$, equation \ref{5} becomes a wave equation,
