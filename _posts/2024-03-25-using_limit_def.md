@@ -13,7 +13,7 @@ related_posts: true
 During my research, I had the opportunity to yield one of the first tools I've ever learned in caculus: the limit definition of the derivative,
 
 $$\begin{align*}
-\frac{df}{dx} = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}. \tag{1} \label{1}
+\frac{df}{dx} \bigg|_{x=a}= \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}. \tag{1} \label{1}
 \end{align*}$$
 
 It's a way to to calulate the rise over run of a function evaluated at $$a$$ with a really small rise $$h$$.
