@@ -22,7 +22,7 @@ After that course, I put that tool aside to collect dust naivley thinking that p
 
 **How wrong I was.**
 
-Let's showcase it's use for three particles with equal masses ($$m$$) and radii ($$d/2$$) that have Hookian interactions with the same spring constant $$k$$ like below. Where $$u_i$$ is the displacement of the $$i$$th particle and so on.
+Let's showcase its use for three particles with equal masses ($$m$$) and radii ($$d/2$$) that have Hookian interactions with the same spring constant $$k$$ like below. Where $$u_i$$ is the displacement of the $$i$$th particle and so on.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
