@@ -20,7 +20,7 @@ It's a way to to calulate the rise over run of a function evaluated at $$a$$ wit
 
 After that course, I put that tool aside to collect dust naivley thinking that physicists would use such an introductory concept.
 
-How wrong I was.
+**How wrong I was.**
 
 Let's showcase it's use for three particles with equal masses ($$m$$) and radii ($$d/2$$) that have Hookian interactions with the same spring constant $$k$$ like below. Where $$u_i$$ is the displacement of the $$i$$th particle and so on.
 
