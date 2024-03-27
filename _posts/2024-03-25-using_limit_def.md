@@ -50,7 +50,7 @@ $$\begin{align*}
 \frac{du}{dx}\bigg|_{x_i-d} = \lim_{d \to 0} \frac{u(x_{i-1}+d)-u(x_{i-1})}{d}.
 \end{align*}$$
 
-And with some algebra and notation that $$u_x$$ is a spacial derivative,
+And with some algebra and notation that $$u_x$$ is a spatial derivative,
 
 $$\begin{align*}
  u_x\big|_{x_i-d}  \,d&=u(x_{i-1}+d)-u(x_{i-1})\\
