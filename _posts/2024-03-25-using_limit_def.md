@@ -16,7 +16,7 @@ $$\begin{align*}
 \frac{df}{dx} = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}. \tag{1} \label{1}
 \end{align*}$$
 
-If you remember, it's just a way to to calulate the rise over run of a function with a really small rise $$h$$.
+It's a way to to calulate the rise over run of a function evaluated at $$a$$ with a really small rise $$h$$.
 
 After that course, I put that tool aside to collect dust naivley thinking that physicists would use such an introductory concept.
 
