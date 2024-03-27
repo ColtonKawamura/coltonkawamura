@@ -10,19 +10,19 @@ featured: false
 disqus_comments: false
 related_posts: true
 ---
-During my resaerch, I had the opportunity to yield one of the first tools I've ever learned in pre-caculus: the limit definition of the derivative,
+During my research, I had the opportunity to yield one of the first tools I've ever learned in caculus: the limit definition of the derivative,
 
 $$\begin{align*}
 \frac{df}{dx} = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}. \tag{1} \label{1}
 \end{align*}$$
 
-Which is just a way to to calulate the rise over run of a function with a really small rise $$h$$.
+If you remember, it's just a way to to calulate the rise over run of a function with a really small rise $$h$$.
 
 After that course, I put that tool aside to collect dust naivley thinking that physicists would use such an introductory concept.
 
 How wrong I was.
 
-Let's showcase it for three particles with equal masses ($$m$$) and radii ($$d/2$$) that have Hookian interactions with the same spring constant $$k$$ like below. Where $$u_i$$ is the displacement of the $$i$$th particle and so on.
+Let's showcase it's use for three particles with equal masses ($$m$$) and radii ($$d/2$$) that have Hookian interactions with the same spring constant $$k$$ like below. Where $$u_i$$ is the displacement of the $$i$$th particle and so on.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -78,7 +78,6 @@ $$\begin{align*}
 m \ddot{u} &=kd\left(u_x\big|_{x_i+d}-u_x\big|_{x_i-d} \right) \\
 &= kd^2u_{xx}.
 \end{align*}$$
-
 
 ***
 
