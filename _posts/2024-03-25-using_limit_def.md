@@ -74,6 +74,9 @@ m \ddot{u} &= -k\left( u_x\big|_{x_i-d}  \,d\right)-k\left(-u_x\big|_{x_i+d} \, 
 
 Now apply the same method for the 
 
+$$\begin{align*}
+u_x\big|_{x_i+d}-u_x\big|_{x_i-d}
+\end{align*}$$
 
 term, but where the distance is $$2d$$ between points. But since $$d$$ is small anways, $$2 d \approx d$$, equation \ref{5} becomes a wave equation,
 
