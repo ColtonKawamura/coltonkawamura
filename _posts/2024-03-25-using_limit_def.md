@@ -44,13 +44,13 @@ $$\begin{align*}
 u(x_{i-1}+d)-u(x_{i-1}).
 \end{align*}$$
 
-Now compare this to the limit definition of a derivative in \ref{1}. In the limit for small $$d$$, we get something similiar to \ref{1},
+Now compare this to the limit definition of a derivative in \ref{1}. We get something similiar to \ref{1},
 
 $$\begin{align*}
 \frac{du}{dx}\bigg|_{x_i-d} = \lim_{d \to 0} \frac{u(x_{i-1}+d)-u(x_{i-1})}{d}.
 \end{align*}$$
 
-And with some algebra and notation that $$u_x$$ is a spatial derivative,
+In the limit for small $$d$$, some algebra, and notation that $$u_x$$ is a spatial derivative,
 
 $$\begin{align*}
  u_x\big|_{x_i-d}  \,d&=u(x_{i-1}+d)-u(x_{i-1})\\
@@ -78,7 +78,7 @@ $$\begin{align*}
 u_x\big|_{x_i+d}-u_x\big|_{x_i-d}
 \end{align*}$$
 
-term, but where the distance is $$2d$$ between points. But since $$d$$ is small anways, $$2 d^2 \approx d^2$$, equation \ref{5} becomes a wave equation,
+term, but where the distance is $$2d$$ between points. But since $$d$$ is small anyways, $$2 d^2 \approx d^2$$, equation \ref{5} becomes a wave equation,
 
 $$\begin{align*}
 m \ddot{u} &=kd\left(u_x\big|_{x_i+d}-u_x\big|_{x_i-d} \right) \\
