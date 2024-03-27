@@ -2,7 +2,7 @@
 layout: post
 title: Using Limit Definition of Derivative in Research
 date: 2024-03-25 10:49:31
-description: Pre-Calculus has it uses in real physics.
+description: The day I learned pre-calculus has it use in real physics.
 tags: 
 categories: physics
 thumbnail: assets/img/limit_definition_deriv.png
