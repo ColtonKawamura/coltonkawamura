@@ -38,7 +38,7 @@ m \ddot{u} &= -k(u_{i}-u_{i-1})-k(u_{i}-u_{i+1}), \tag{2} \label{2}
 
 where the values of the the dispacements will account for the direction of the forces relative to the $$x$$-axis situated at the center of the $$i$$th particle.
 
-Now look at the $$u_i-u_{i-1} $$ term, notice can express it as a function of positions separated by a distance $$d$$,
+Now look at the $$u_i-u_{i-1} $$ term, we can express it as a function of positions separated by a distance $$d$$,
 
 $$\begin{align*}
 u(x_{i-1}+d)-u(x_{i-1}).
