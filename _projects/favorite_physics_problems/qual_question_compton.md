@@ -18,7 +18,7 @@ In the Compton effect, a $$\gamma$$-ray photon of wavelength $$\lambda$$ strikes
 The energy before the collision must be the same before and after. The energy after is split between that of the photon $$E$$ and electron $$E_e$$,
 
 $$\begin{align*}
-E_i^p+E_i^e=E_f^p+E_f^e. \tag{1}
+E_i^p+E_i^e=E_f^p+E_f^e. \tag{1} \label{1}
 \end{align*}$$
 
 Compare the energies of each before and after the collision. Let's look at the electron first. The problem stated it was initally stationary, so we only have rest energy,
