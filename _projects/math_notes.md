@@ -92,6 +92,12 @@ Expanding $$f(x)$$ about a point $$a$$
 $$\begin{align*}
 f(x) = f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2 + \frac{f'''(a)}{3!}(x - a)^3 + \cdots + \frac{f^{(n)}(a)}{n!}(x - a)^n + \cdots
 \end{align*}$$
+
+Usually, the quick-use of this in physics is for some $$(1+\epsilon)^a$$, for small $$\epsilon$$,
+
+$$\begin{align*}
+(1+\epsilon)^a\approx 1+a\epsilon
+\end{align*}$$
  
 ## Binomial Expansions
 
