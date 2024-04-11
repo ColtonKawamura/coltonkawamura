@@ -93,7 +93,16 @@ $$\begin{align*}
 f(x) = f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2 + \frac{f'''(a)}{3!}(x - a)^3 + \cdots + \frac{f^{(n)}(a)}{n!}(x - a)^n + \cdots
 \end{align*}$$
  
- 
+ ## Binomial Expansions
+
+ $$\begin{align*}
+ (a + b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{n-k} b^k
+ \end{align*}$$
+
+ where $$ \binom{n}{k}$$ are the binomial coefficients,
+ $$\begin{align*}
+ \binom{n}{k} = \frac{n!}{k!(n-k)!}.
+ \end{align*}$$
 
 # Operators
 ***
