@@ -45,7 +45,7 @@ E &= p
 
 for $$c=1$$.
 
-This highlights a nice interpretation of how to think "mass" is for non-classical scenarios. Think of it less of what makes up "stuff" of more of the rest energy in the particle's references frame.
+This highlights a nice interpretation of how to think "mass" is for non-classical scenarios. Think of it less of the "stuff" that makes up things, but as a measure of the rest energy in the particle's references frame.
 
 
 ***
