@@ -1,1 +1,1 @@
-test
+This is my personal website. Opinions and views are my own.
