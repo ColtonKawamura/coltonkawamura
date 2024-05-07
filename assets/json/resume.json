@@ -22,22 +22,22 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Research Physicist",
-      "position": "Faculty Associate",
-      "url": "https://nps.edu/web/physics",
-      "startDate": "2024",
-      "endDate": "Present"//,
-      // "summary": "",
-      // "highlights": [
-      //   "Combat Operations",
-      //   "Mix Gas Diving and Supervising",
-      //   "Demolition Operations",
-      //   "Recompression Chamber Operations"
-      // ]
-    }
-  ],
+  // "work": [
+  //   {
+  //     "name": "Research Physicist",
+  //     "position": "Faculty Associate",
+  //     "url": "https://nps.edu/web/physics",
+  //     "startDate": "2024",
+  //     "endDate": "Present"//,
+  //     // "summary": "",
+  //     // "highlights": [
+  //     //   "Combat Operations",
+  //     //   "Mix Gas Diving and Supervising",
+  //     //   "Demolition Operations",
+  //     //   "Recompression Chamber Operations"
+  //     // ]
+  //   }
+  // ],
   "volunteer": [],
   "education": [
     {
