@@ -32,18 +32,18 @@ You might get some pop ups saying various function can't be opened. [Follow thes
 
 7. Try running 
 
-```MATLAB
->> casadi.MX
-```
+        ```MATLAB
+        >> casadi.MX
+        ```
 
 If you get
-```MATLAB
->> casadi.MX
+        ```MATLAB
+        >> casadi.MX
 
-ans = 
+        ans = 
 
-0x0
-```
+        0x0
+        ```
 
 you're good! If not, please let me know and I can try to help.
 
