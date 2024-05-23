@@ -19,6 +19,7 @@ related_posts: true
 
 ```MATLAB
 addpath('/my/path/to/file/casadi-3')
+savepath; % Save the path
 ```
 6. Next, you probably need to allow your system to run the functions in CasADi. Still in MATLAB, run
 
