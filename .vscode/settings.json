@@ -1,5 +1,25 @@
 {
     "cSpell.words": [
         "infitesimal"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#e9bbcf",
+        "activityBar.background": "#e9bbcf",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#59902f",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#e9bbcf",
+        "statusBar.background": "#dc95b4",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#cf6f99",
+        "statusBarItem.remoteBackground": "#dc95b4",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#dc95b4",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#dc95b499",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#dc95b4"
 }
