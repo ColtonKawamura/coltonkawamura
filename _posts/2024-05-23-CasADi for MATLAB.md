@@ -27,7 +27,7 @@ addpath('/my/path/to/file/casadi-3')
 ```
 
 You might get some pop ups saying various function can't be opened. [Follow these steps.](https://github.com/casadi/casadi/wiki/FAQ%3A-how-to-resolve-on-macOS%3A-%22casadiMEX.mexmaci64%22-cannot-be-opened-because-the-developer-cannot-be-verified)
-***
+
 
 7. Try running 
 
@@ -45,7 +45,7 @@ ans =
 ```
 
 you're good! If not, please let me know and I can try to help.
-
+***
 
 <script src="https://giscus.app/client.js"
         data-repo="coltonkawamura/coltonkawamura"
