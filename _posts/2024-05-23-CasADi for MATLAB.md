@@ -17,15 +17,15 @@ related_posts: true
 4. Fire up the actual MATLAB application, don't use an IDE for this step.
 5. Add the path to the downloaded folder.
 
-```MATLAB
-addpath('/my/path/to/file/casadi-3')
-savepath; % Save the path
+        ```MATLAB
+        addpath('/my/path/to/file/casadi-3')
+        savepath; % Save the path
 ```
 6. Next, you probably need to allow your system to run the functions in CasADi. Still in MATLAB, run
 
-```MATLAB
->> casadi.MX
-```
+        ```MATLAB
+        >> casadi.MX
+        ```
 
 You might get some pop ups saying various function can't be opened. [Follow these steps.](https://github.com/casadi/casadi/wiki/FAQ%3A-how-to-resolve-on-macOS%3A-%22casadiMEX.mexmaci64%22-cannot-be-opened-because-the-developer-cannot-be-verified)
 
