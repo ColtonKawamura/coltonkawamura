@@ -27,7 +27,7 @@ related_posts: true
         >> casadi.MX
         ```
 
-You might get some pop ups saying various function can't be opened. [Follow these steps.](https://github.com/casadi/casadi/wiki/FAQ%3A-how-to-resolve-on-macOS%3A-%22casadiMEX.mexmaci64%22-cannot-be-opened-because-the-developer-cannot-be-verified)
+        You might get some pop ups saying various function can't be opened. [Follow these steps.](https://github.com/casadi/casadi/wiki/FAQ%3A-how-to-resolve-on-macOS%3A-%22casadiMEX.mexmaci64%22-cannot-be-opened-because-the-developer-cannot-be-verified)
 
 
 7. Try running 
@@ -36,7 +36,7 @@ You might get some pop ups saying various function can't be opened. [Follow thes
         >> casadi.MX
         ```
 
-If you get
+        If you get
         ```MATLAB
         >> casadi.MX
 
@@ -45,7 +45,7 @@ If you get
         0x0
         ```
 
-you're good! If not, please let me know and I can try to help.
+        you're good! If not, please let me know and I can try to help.
 
 ***
 
