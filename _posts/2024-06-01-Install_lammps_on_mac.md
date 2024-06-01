@@ -48,6 +48,7 @@ cd Documents/lammps-2Aug2023
 ```
 
 Now [make your first build](https://coltonkawamura.github.io/coltonkawamura/blog/2024/new_lammps_build/)!
+
 ***
 
 <script src="https://giscus.app/client.js"
