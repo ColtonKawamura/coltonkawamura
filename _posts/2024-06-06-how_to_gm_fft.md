@@ -26,7 +26,7 @@ Let's break down each step as they appear in my simulation code:
 1. Change variables.
 - Make sure the add a path to where the ```process_gm_fft.m``` function is sitting. For me, it's in the ```Functions``` folder, which is one directory up from where my simulation is.
 
-```MATLAB
+```C
 %%% ACTUAL SIMULATION UP HERE %%%
 
 % Add the path to the "functions" directory
