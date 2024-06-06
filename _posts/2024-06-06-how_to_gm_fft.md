@@ -13,8 +13,6 @@ related_posts: true
 
 First, head over to [my MATLAB GM repository](https://gitlab.nps.edu/colton.kawamura1/MATLAB-Oscillations) in the ```Functions``` clone/pull/download the ```process_gm_fft.m``` file.
 
-![Here it is.](function_location.png)
-
 In your IDE of choice, open it and read through the preamble. It'll explain what variables you need to put in, and what variables it spits out.
 
 To call the function properly from your simulation script, you need to do three steps:
@@ -27,6 +25,7 @@ Let's break down each step as they appear in my simulation code:
 
 1. Change variables.
 - Make sure the add a path to where the ```process_gm_fft.m``` function is sitting. For me, it's in the ```Functions``` folder, which is one directory up from where my simulation is.
+
 ```MATLAB
 %%% ACTUAL SIMULATION UP HERE %%%
 
