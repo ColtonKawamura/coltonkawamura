@@ -2,7 +2,7 @@
 
 % Add the path to the "functions" directory
 addpath('../Functions')
-</code></pre> <ul> <li>In this simulation, the actual granular mechanics simulation was written by someone else so I need to change the variables to fit my function. <pre><code class="language-MATLAB">% Convert simulation variables to meet function convention
+</code></pre> <ul> <li>In this simulation, the actual granular mechanics simulation was written by someone else so I need to change the variables to fit my function.</li> </ul> <pre><code class="language-MATLAB">% Convert simulation variables to meet function convention
 time_vector = (1:Nt)*dt;
 [~,index_particles] = sort(x0);
 index_oscillating_wall = left_wall_list;
@@ -10,16 +10,16 @@ driving_frequency = w_D/6.2832;
 driving_amplitude=A;
 position_particles = x_all;
 initial_distance_from_oscillation = x0;
-</code></pre> </li> </ul> <ol> <li>Use these variables to call the function <pre><code class="language-MATLAB">% Perform fft fitting
+</code></pre> <ol> <li>Use these variables to call the function</li> </ol> <pre><code class="language-MATLAB">% Perform fft fitting
 [fitted_attenuation, wavenumber, wavespeed, attenuation_fit_line, initial_distance_from_oscillation_output, amplitude_vector] = ...
 process_gm_fft(driving_amplitude, time_vector, index_particles, index_oscillating_wall, driving_frequency, position_particles, initial_distance_from_oscillation);
-</code></pre> </li> <li>We have generalized outputs <code class="language-plaintext highlighter-rouge">fitted_attenuation, wavenumber, wavespeed, attenuation_fit_line, initial_distance_from_oscillation_output, amplitude_vector</code>. We’ll need to change these if we’re going to analyze another direction (I’ll get into this later.) <pre><code class="language-MATLAB">attenuation_x = fitted_attenuation;
+</code></pre> <ol> <li>We have generalized outputs <code class="language-plaintext highlighter-rouge">fitted_attenuation, wavenumber, wavespeed, attenuation_fit_line, initial_distance_from_oscillation_output, amplitude_vector</code>. We’ll need to change these if we’re going to analyze another direction (I’ll get into this later.)</li> </ol> <pre><code class="language-MATLAB">attenuation_x = fitted_attenuation;
 attenuation_fit_line_x = attenuation_fit_line;
 wavenumber_x = wavenumber;
 wavespeed_x = wavespeed;
 initial_distance_from_oscillation_output_x_fft = initial_distance_from_oscillation_output;
 amplitude_vector_x = amplitude_vector;
-</code></pre> </li> </ol> <p>That’s it! Here’s what the entire post-processing for forming the function in the x-direction with a wall oscillating in the x-direction:</p> <pre><code class="language-MATLAB">% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+</code></pre> <p>That’s it! Here’s what the entire post-processing for forming the function in the x-direction with a wall oscillating in the x-direction:</p> <pre><code class="language-MATLAB">% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % X Direction Post Processing
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
