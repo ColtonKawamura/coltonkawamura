@@ -11,21 +11,27 @@ disqus_comments: false
 related_posts: true
 ---
 
-1. Go to the directory where LAMMPS is installed.
-2. Create a folder and cd into the new build folder.
+Go to the directory where LAMMPS is installed.
+ 
+Create a folder and cd into the new build folder.
 
 ```bash
 mkdir newbuildname; cd newbuildname 
 ```
-3. Configure the new build with packages that you want. In this example, i'm using the GRANULAR package.
+
+Configure the new build with packages that you want. In this example, i'm using the GRANULAR package.
    
 ```bash
 cmake ../cmake -D PKG_GRANULAR=yes
 ```
 
-The one above configures a new build with the package "BODY".
+The one above configures a new build with the package "GRANULAR". To add multiple packages, simply add tack on more packages before the build.
 
-4. Create the build.
+```bash
+cmake ../cmake -D PKG_SRD=yes
+```
+
+Finally, create the build.
 
 ```bash
 cmake --build .
