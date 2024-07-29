@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  # image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Father</p>
@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a father of three kids that don't sleep, a proud husband, and a computational physics researcher.
+I'm a father of three kids that don't sleep, a proud husband, and a physics researcher.
 
 I earned undergraduate and graduate degrees in physics where I concentrated on computational analysis of theoretical energetic materials.
 
