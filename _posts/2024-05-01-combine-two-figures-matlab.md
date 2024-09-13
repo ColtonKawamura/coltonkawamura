@@ -2,7 +2,7 @@
 layout: post
 title: How to Combine Two Plots in Matlab
 date: 2024-05-01 00:32:13
-description: How to Combine Two Plots in Matlab Including all the Data.
+description: How to Combine Two Figures in Matlab Including all the Data.
 tags: matlab
 categories: computing
 ---
