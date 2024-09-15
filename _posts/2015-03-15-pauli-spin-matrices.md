@@ -23,10 +23,10 @@ $$
 
 What makes the **Pauli spin matrices** special is that they transform the space while leaving certain vectors unchanged, except for being scaled by a factor of ±1.
 
-For a vector \( \ket{\psi} \), if it is an eigenvector of a Pauli matrix \( \sigma_i \) (where \( i = x, y, z \)), it satisfies the following equation:
+For a vector $$ \ket{\psi} $$, if it is an eigenvector of a Pauli matrix $$ \sigma_i $$ (where $$ i = x, y, z $$ ), it satisfies the following equation:
 
 $$
 \sigma_i \ket{\psi} = \pm \ket{\psi}
 $$
 
-This means that applying the Pauli matrix $$ \sigma_i $$ to the vector $ \ket{\psi} $$ leaves it unchanged, except for a scaling factor of $$ \pm 1 $$.
+This means that applying the Pauli matrix $$ \sigma_i $$ to the vector $$ \ket{\psi} $$ leaves it unchanged, except for a scaling factor of $$ \pm 1 $$.
