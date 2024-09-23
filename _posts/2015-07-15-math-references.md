@@ -23,7 +23,7 @@ $$
 z = r \cos \theta
 $$
 
-For the Cartesian unit vectors in terms of spherical unit vectors:
+For the Cartesian unit vectors in terms of spherical unit vectors: 
 
 $$
 \hat{x} = \sin \theta \cos \phi \, \hat{r} + \cos \theta \cos \phi \, \hat{\theta} - \sin \phi \, \hat{\phi}
