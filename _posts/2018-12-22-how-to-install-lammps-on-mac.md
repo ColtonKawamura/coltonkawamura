@@ -43,4 +43,4 @@ Now go the the directory where you put the .tar file. For me, it was
 cd Documents/lammps-2Aug2023
 ```
 
-Now [make your first build](https://coltonkawamura.github.io/coltonkawamura/blog/2024/new_lammps_build/)!
+Now [make your first build](https://coltonkawamura.github.io/coltonkawamura/blog/2015/new-lammps-build/)!
