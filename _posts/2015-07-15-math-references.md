@@ -7,5 +7,3 @@ tags: math
 categories: physics
 featured: true
 ---
-
-what bout now?
