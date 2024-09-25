@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Physics References
+title: Quantum References
 date: 2020-09-28 11:12:00-0400
-description: My most used physics references
-tags: reference
+description: My most used quantum references
+tags: quantum
 categories: physics
 ---
 
