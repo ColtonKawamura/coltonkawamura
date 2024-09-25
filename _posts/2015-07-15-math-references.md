@@ -19,6 +19,8 @@ z = r \cos{\theta}
 \end{align*}
 $$
 
+## Cartesian to Cylindrical
+
 $$
 \hat{x} = \sin{\theta} \cos{\phi} \, \hat{r} + \cos{\theta} \cos{\phi} \, \hat{\theta} - \sin{\phi} \, \hat{\phi} \\
 \hat{y} = \sin{\theta} \sin{\phi} \, \hat{r} + \cos{\theta} \sin{\phi} \, \hat{\theta} + \cos{\phi} \, \hat{\phi} \\
