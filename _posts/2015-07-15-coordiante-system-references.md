@@ -8,7 +8,7 @@ categories: math
 featured: true
 ---
 # Spherical Coordinates
--
+
 ### Cartesian to Spherical
 
 $$
@@ -18,6 +18,7 @@ y = r \sin{\theta} \sin{\phi} \\
 z = r \cos{\theta}
 \end{align*}
 $$
+
 $$
 \begin{align*}
 \hat{x} = \sin{\theta} \cos{\phi} \, \hat{r} + \cos{\theta} \cos{\phi} \, \hat{\theta} - \sin{\phi} \, \hat{\phi} \\
