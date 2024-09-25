@@ -18,14 +18,29 @@ y = r \sin{\theta} \sin{\phi} \\
 z = r \cos{\theta}
 \end{align*}
 $$
-
-### Spherical to Cartesian
-
 $$
 \begin{align*}
 \hat{x} = \sin{\theta} \cos{\phi} \, \hat{r} + \cos{\theta} \cos{\phi} \, \hat{\theta} - \sin{\phi} \, \hat{\phi} \\
 \hat{y} = \sin{\theta} \sin{\phi} \, \hat{r} + \cos{\theta} \sin{\phi} \, \hat{\theta} + \cos{\phi} \, \hat{\phi} \\
 \hat{z} = \cos{\theta} \, \hat{r} - \sin{\theta} \, \hat{\theta}
+\end{align*}
+$$
+
+### Spherical to Cartesian
+
+$$
+\begin{align*}
+r &= \sqrt{x^2 + y^2 + z^2} \\
+\theta &= \tan^{-1} \left( \frac{\sqrt{x^2 + y^2}}{z} \right) \\
+\phi &= \tan^{-1} \left( \frac{y}{x} \right)
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\hat{r} &= \sin{\theta} \cos{\phi} \, \hat{x} + \sin{\theta} \sin{\phi} \, \hat{y} + \cos{\theta} \, \hat{z} \\
+\hat{\theta} &= \cos{\theta} \cos{\phi} \, \hat{x} + \cos{\theta} \sin{\phi} \, \hat{y} - \sin{\theta} \, \hat{z} \\
+\hat{\phi} &= - \sin{\phi} \, \hat{x} + \cos{\phi} \, \hat{y}
 \end{align*}
 $$
 
@@ -40,7 +55,6 @@ z = z
 \end{align*}
 $$
 
-### Cylindrical to Cartesian
 
 $$
 \begin{align*}
@@ -49,3 +63,6 @@ $$
 \hat{z} &= \hat{z}
 \end{align*}
 $$
+
+### Cylindrical to Cartesian
+
