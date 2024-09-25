@@ -31,10 +31,21 @@ $$
 
 # Cylindrical Coordinates
 
+## Cartesian to Cylindrical
 $$
 \begin{align*}
 x = s \cos{\phi} \\
 y = s \sin{\phi} \\
 z = z
+\end{align*}
+$$
+
+## Cylindrical to Cartesian
+
+$$
+\begin{align*}
+\hat{x} &= \cos{\phi} \, \hat{s} - \sin{\phi} \, \hat{\phi} \\
+\hat{y} &= \sin{\phi} \, \hat{s} + \cos{\phi} \, \hat{\phi} \\
+\hat{z} &= \hat{z}
 \end{align*}
 $$
