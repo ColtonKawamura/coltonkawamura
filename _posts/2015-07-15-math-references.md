@@ -19,7 +19,7 @@ z = r \cos{\theta}
 \end{align*}
 $$
 
-## Cartesian to Cylindrical
+## Sphereical to Cartesian
 
 $$
 \hat{x} = \sin{\theta} \cos{\phi} \, \hat{r} + \cos{\theta} \cos{\phi} \, \hat{\theta} - \sin{\phi} \, \hat{\phi} \\
