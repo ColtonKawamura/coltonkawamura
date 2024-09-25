@@ -136,3 +136,4 @@ $$
 \text{Laplacian:} \quad \nabla^2 t &= \frac{1}{s} \frac{\partial}{\partial s} \left( s \frac{\partial t}{\partial s} \right) + \frac{1}{s^2} \frac{\partial^2 t}{\partial \phi^2} + \frac{\partial^2 t}{\partial z^2}
 \end{aligned}
 $$
+
