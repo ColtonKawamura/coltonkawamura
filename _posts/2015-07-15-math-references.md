@@ -7,9 +7,9 @@ tags: math
 categories: physics
 featured: true
 ---
-# Sphereical Coordinates
+# Spherical Coordinates
 
-## Cartesian to Sphereical
+### Cartesian to Spherical
 
 $$
 \begin{align*}
@@ -19,7 +19,7 @@ z = r \cos{\theta}
 \end{align*}
 $$
 
-## Sphereical to Cartesian
+### Spherical to Cartesian
 
 $$
 \begin{align*}
@@ -31,7 +31,7 @@ $$
 
 # Cylindrical Coordinates
 
-## Cartesian to Cylindrical
+### Cartesian to Cylindrical
 $$
 \begin{align*}
 x = s \cos{\phi} \\
@@ -40,7 +40,7 @@ z = z
 \end{align*}
 $$
 
-## Cylindrical to Cartesian
+### Cylindrical to Cartesian
 
 $$
 \begin{align*}
