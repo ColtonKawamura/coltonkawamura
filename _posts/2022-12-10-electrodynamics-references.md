@@ -49,6 +49,36 @@ $$
 \mathbf{H} = \frac{1}{\mu_0} \mathbf{B} - \mathbf{M}
 $$
 
-## In Linear Media:
+In Linear Media:
+
+$$
+\mathbf{P} = \epsilon_0 \chi_e \mathbf{E}, \quad \mathbf{D} = \epsilon \mathbf{E}
+$$
+
+$$
+\mathbf{M} = \chi_m \mathbf{H}, \quad \mathbf{H} = \frac{1}{\mu} \mathbf{B}
+$$
 
 
+## Potentials
+
+$$
+\mathbf{E} = -\nabla V - \frac{\partial \mathbf{A}}{\partial t}, \quad \mathbf{B} = \nabla \times \mathbf{A}
+$$
+
+## Lorentz Force Law
+
+$$
+\mathbf{F} = q (\mathbf{E} + \mathbf{v} \times \mathbf{B})
+$$
+
+
+## Energy, Momentum, and Power
+
+Energy:  $$ \quad U = \frac{1}{2} \int \left( \epsilon_0 E^2 + \frac{1}{\mu_0} B^2 \right) d\tau $$
+
+Momentum: $$ \quad \mathbf{P} = \epsilon_0 \int (\mathbf{E} \times \mathbf{B}) \, d\tau $$
+
+Poynting Vector (Power per Area): $$ \quad \mathbf{S} = \frac{1}{\mu_0} (\mathbf{E} \times \mathbf{B}) $$ 
+
+Larmor: $$ \quad P = \frac{\mu_0}{6 \pi c} q^2 a^2 $$
