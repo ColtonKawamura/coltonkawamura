@@ -66,3 +66,18 @@ $$
 
 ### Cylindrical to Cartesian
 
+$$
+\begin{align*}
+s &= \sqrt{x^2 + y^2} \\
+\phi &= \tan^{-1} \left( \frac{y}{x} \right) \\
+z &= z
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\hat{s} &= \cos{\phi} \, \hat{x} + \sin{\phi} \, \hat{y} \\
+\hat{\phi} &= - \sin{\phi} \, \hat{x} + \cos{\phi} \, \hat{y} \\
+\hat{z} &= \hat{z}
+\end{align*}
+$$
