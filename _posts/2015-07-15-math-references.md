@@ -81,3 +81,19 @@ $$
 \hat{z} &= \hat{z}
 \end{align*}
 $$
+
+# Vector Derivatives
+
+$$
+\begin{aligned}
+\text{Cartesian:} \quad dl &= dx \, \hat{x} + dy \, \hat{y} + dz \, \hat{z}; \quad d\tau = dx \, dy \, dz \\
+\\
+\text{Gradient:} \quad \nabla t &= \frac{\partial t}{\partial x} \, \hat{x} + \frac{\partial t}{\partial y} \, \hat{y} + \frac{\partial t}{\partial z} \, \hat{z} \\
+\\
+\text{Divergence:} \quad \nabla \cdot \mathbf{v} &= \frac{\partial v_x}{\partial x} + \frac{\partial v_y}{\partial y} + \frac{\partial v_z}{\partial z} \\
+\\
+\text{Curl:} \quad \nabla \times \mathbf{v} &= \left( \frac{\partial v_z}{\partial y} - \frac{\partial v_y}{\partial z} \right) \, \hat{x} + \left( \frac{\partial v_x}{\partial z} - \frac{\partial v_z}{\partial x} \right) \, \hat{y} + \left( \frac{\partial v_y}{\partial x} - \frac{\partial v_x}{\partial y} \right) \, \hat{z} \\
+\\
+\text{Laplacian:} \quad \nabla^2 t &= \frac{\partial^2 t}{\partial x^2} + \frac{\partial^2 t}{\partial y^2} + \frac{\partial^2 t}{\partial z^2}
+\end{aligned}
+$$
