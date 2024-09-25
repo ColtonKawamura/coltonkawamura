@@ -35,3 +35,22 @@ $$
 \end{aligned}
 $$
 
+### Second Derivatives
+
+$$
+\begin{aligned}
+\nabla \cdot (\nabla \times \mathbf{A}) &= 0 \\
+\\
+\nabla \times (\nabla f) &= 0 \\
+\\
+\nabla \times (\nabla \times \mathbf{A}) &= \nabla (\nabla \cdot \mathbf{A}) - \nabla^2 \mathbf{A}
+\end{aligned}
+$$
+
+### Fundamental Theorems
+
+Gradient Theorem: $$ \quad &\int_a^b (\nabla f) \cdot d\mathbf{l} = f(b) - f(a) $$
+
+Divergence Theorem: $$ \quad &\int (\nabla \cdot \mathbf{A}) \, d\tau = \oint \mathbf{A} \cdot d\mathbf{a} $$
+
+Curl Theorem: $$ \quad &\int (\nabla \times \mathbf{A}) \cdot d\mathbf{a} = \oint \mathbf{A} \cdot d\mathbf{l} $$
