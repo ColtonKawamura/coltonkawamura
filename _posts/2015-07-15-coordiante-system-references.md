@@ -8,7 +8,7 @@ categories: math
 featured: true
 ---
 # Spherical Coordinates
-
+-
 ### Cartesian to Spherical
 
 $$
