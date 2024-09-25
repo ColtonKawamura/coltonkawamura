@@ -18,3 +18,9 @@ y = r \sin{\theta} \sin{\phi} \\
 z = r \cos{\theta}
 \end{align*}
 $$
+
+$$
+\hat{x} = \sin{\theta} \cos{\phi} \, \hat{r} + \cos{\theta} \cos{\phi} \, \hat{\theta} - \sin{\phi} \, \hat{\phi} \\
+\hat{y} = \sin{\theta} \sin{\phi} \, \hat{r} + \cos{\theta} \sin{\phi} \, \hat{\theta} + \cos{\phi} \, \hat{\phi} \\
+\hat{z} = \cos{\theta} \, \hat{r} - \sin{\theta} \, \hat{\theta}
+$$
