@@ -22,7 +22,9 @@ $$
 ## Sphereical to Cartesian
 
 $$
+\begin{align*}
 \hat{x} = \sin{\theta} \cos{\phi} \, \hat{r} + \cos{\theta} \cos{\phi} \, \hat{\theta} - \sin{\phi} \, \hat{\phi} \\
 \hat{y} = \sin{\theta} \sin{\phi} \, \hat{r} + \cos{\theta} \sin{\phi} \, \hat{\theta} + \cos{\phi} \, \hat{\phi} \\
 \hat{z} = \cos{\theta} \, \hat{r} - \sin{\theta} \, \hat{\theta}
+\end{align*}
 $$
