@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Math References
+title: Coordinate System References
 date: 2015-07-15 15:09:00
-description: My most used math references.
-tags: math
-categories: physics
+description: Sphereical, Cartesian, and Cylindrical coordiante system relations.
+tags: coordinate
+categories: math
 featured: true
 ---
 # Spherical Coordinates
