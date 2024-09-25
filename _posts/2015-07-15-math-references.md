@@ -7,7 +7,7 @@ tags: math
 categories: physics
 featured: true
 ---
-# Sphereical Coordianets
+# Sphereical Coordinates
 
 ## Cartesian to Sphereical
 
@@ -26,5 +26,15 @@ $$
 \hat{x} = \sin{\theta} \cos{\phi} \, \hat{r} + \cos{\theta} \cos{\phi} \, \hat{\theta} - \sin{\phi} \, \hat{\phi} \\
 \hat{y} = \sin{\theta} \sin{\phi} \, \hat{r} + \cos{\theta} \sin{\phi} \, \hat{\theta} + \cos{\phi} \, \hat{\phi} \\
 \hat{z} = \cos{\theta} \, \hat{r} - \sin{\theta} \, \hat{\theta}
+\end{align*}
+$$
+
+# Cylindrical Coordinates
+
+$$
+\begin{align*}
+x = s \cos{\phi} \\
+y = s \sin{\phi} \\
+z = z
 \end{align*}
 $$
