@@ -46,7 +46,7 @@ $$
 
 # Cylindrical Coordinates
 
-### Cartesian to Cylindrical
+Cartesian to Cylindrical
 
 $$
 \begin{align*}
@@ -85,7 +85,7 @@ $$
 
 # Vector Derivatives
 
-### Cartesian
+Cartesian
 
 $$
 \begin{aligned}
@@ -117,5 +117,22 @@ $$
 &+ \frac{1}{r} \left[ \frac{\partial}{\partial r} \left( r v_\theta \right) - \frac{\partial v_r}{\partial \theta} \right] \, \hat{\phi} \\
 \\
 \text{Laplacian:} \quad \nabla^2 t &= \frac{1}{r^2} \frac{\partial}{\partial r} \left( r^2 \frac{\partial t}{\partial r} \right) + \frac{1}{r^2 \sin{\theta}} \frac{\partial}{\partial \theta} \left( \sin{\theta} \frac{\partial t}{\partial \theta} \right) + \frac{1}{r^2 \sin^2{\theta}} \frac{\partial^2 t}{\partial \phi^2}
+\end{aligned}
+$$
+
+### Cylindrical
+
+$$
+\begin{aligned}
+\text{Cylindrical:} \quad dl &= ds \, \hat{s} + s \, d\phi \, \hat{\phi} + dz \, \hat{z}; \quad d\tau = s \, ds \, d\phi \, dz \\
+\\
+\text{Gradient:} \quad \nabla t &= \frac{\partial t}{\partial s} \, \hat{s} + \frac{1}{s} \frac{\partial t}{\partial \phi} \, \hat{\phi} + \frac{\partial t}{\partial z} \, \hat{z} \\
+\\
+\text{Divergence:} \quad \nabla \cdot \mathbf{v} &= \frac{1}{s} \frac{\partial}{\partial s} \left( s v_s \right) + \frac{1}{s} \frac{\partial v_\phi}{\partial \phi} + \frac{\partial v_z}{\partial z} \\
+\\
+\text{Curl:} \quad \nabla \times \mathbf{v} &= \left[ \frac{1}{s} \frac{\partial v_z}{\partial \phi} - \frac{\partial v_\phi}{\partial z} \right] \, \hat{s} + \left[ \frac{\partial v_s}{\partial z} - \frac{\partial v_z}{\partial s} \right] \, \hat{\phi} \\
+&+ \frac{1}{s} \left[ \frac{\partial}{\partial s} \left( s v_\phi \right) - \frac{\partial v_s}{\partial \phi} \right] \, \hat{z} \\
+\\
+\text{Laplacian:} \quad \nabla^2 t &= \frac{1}{s} \frac{\partial}{\partial s} \left( s \frac{\partial t}{\partial s} \right) + \frac{1}{s^2} \frac{\partial^2 t}{\partial \phi^2} + \frac{\partial^2 t}{\partial z^2}
 \end{aligned}
 $$
