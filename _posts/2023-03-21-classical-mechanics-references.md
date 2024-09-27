@@ -6,3 +6,15 @@ description: My most used classical mechanics references.
 tags: classical
 categories: physics
 ---
+
+### Lagrangian
+
+$$
+\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_j} \right) = \frac{\partial L}{\partial q_j}
+$$
+
+which is just newton's second law
+
+$$
+m \ddot{q}_j= -\nabla U(q)  
+$$
