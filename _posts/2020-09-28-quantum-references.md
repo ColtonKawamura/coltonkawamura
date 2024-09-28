@@ -23,31 +23,27 @@ $$
 
 # Eigenvector and Eigenvalues
 
-Given a matrix $\mathbf{A}$, the eigenvector equation is:
+Given a matrix $$\mathbf{A}$$, the eigenvector equation is:
 
 $$
 \mathbf{A} \mathbf{v} = \lambda \mathbf{v}
 $$
 
-Where:
-- $\mathbf{A}$ is a square matrix.
-- $\mathbf{v}$ is the eigenvector.
-- $\lambda$ is the corresponding eigenvalue.
 
 ### Finding Eigenvalues:
-To find the eigenvalues $\lambda$, solve the characteristic equation:
+To find the eigenvalues $$\lambda$$, solve the characteristic equation:
 
 $$
 \det(\mathbf{A} - \lambda \mathbf{I}) = 0
 $$
 
 ### Finding Eigenvectors:
-Once the eigenvalues are determined, substitute each $\lambda$ into the equation:
+Once the eigenvalues are determined, substitute each $$\lambda$$ into the equation:
 
 $$
 (\mathbf{A} - \lambda \mathbf{I}) \mathbf{v} = 0
 $$
 
-Solve for the eigenvector $\mathbf{v}$.
+Solve for the eigenvector $$\mathbf{v}$$.
 
 
