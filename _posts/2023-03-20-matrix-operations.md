@@ -43,16 +43,4 @@ $$
 \mathbf{A} \times \mathbf{B} = \left( bf - ce, -(af - cd), ae - bd \right)
 $$
 
-## Determinant
-
-$$
-A = \begin{pmatrix}
-a & b & c \\
-d & e & f \\
-g & h & i
-\end{pmatrix}
-$$
-
-$$
-\text{det}(A) = a(ei - fh) - b(di - fg) + c(dh - eg)
-$$
+kl;jh
