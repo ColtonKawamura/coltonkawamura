@@ -9,11 +9,11 @@ categories: computing
 
 Just replace your two figures for `f1` and `f2`.
 
-```c++
+```bash
 % Define the two figure files that are on the MATLAB path
 % These are the only "inputs" to this script
-f1 = 'bi.fig';
-f2 = 'poly.fig';
+f1 = 'fig1.fig';
+f2 = 'fig2.fig';
 
 % Open the figures
 fig1 = openfig(f1);

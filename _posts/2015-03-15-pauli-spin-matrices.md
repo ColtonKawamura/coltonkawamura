@@ -7,7 +7,7 @@ tags: quantum linear-algebra
 categories: phyiscs
 ---
 
-**Pauli spin matrices** are operators that describe the action of quantum measurements in the context of spin, particularly for spin-½ particles. These matrices are used to represent measurements along the x, y, and z axes in quantum mechanics.
+**Pauli spin matrices** are operators that describe the action of quantum measurements in the context of spin, particularly for spin-½ particles like electrons, protons, or neutrons. For spin 1-particles, need to use the generalized 3x3 marix. These matrices are used to represent measurements along the x, y, and z axes in quantum mechanics.
 
 $$
 \sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad
