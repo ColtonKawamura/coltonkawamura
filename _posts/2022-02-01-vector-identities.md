@@ -49,8 +49,8 @@ $$
 
 ### Fundamental Theorems
 
-Gradient Theorem: $$ \quad &\int_a^b (\nabla f) \cdot d\mathbf{l} = f(b) - f(a) $$
+Gradient Theorem: $$ \quad \int_a^b (\nabla f) \cdot d\mathbf{l} = f(b) - f(a) $$
 
-Divergence Theorem: $$ \quad &\int (\nabla \cdot \mathbf{A}) \, d\tau = \oint \mathbf{A} \cdot d\mathbf{a} $$
+Divergence Theorem: $$ \quad \int (\nabla \cdot \mathbf{A}) \, d\tau = \oint \mathbf{A} \cdot d\mathbf{a} $$
 
-Curl Theorem: $$ \quad &\int (\nabla \times \mathbf{A}) \cdot d\mathbf{a} = \oint \mathbf{A} \cdot d\mathbf{l} $$
+Curl Theorem: $$ \quad \int (\nabla \times \mathbf{A}) \cdot d\mathbf{a} = \oint \mathbf{A} \cdot d\mathbf{l} $$
