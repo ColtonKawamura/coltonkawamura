@@ -8,5 +8,5 @@ categories: math
 ---
 
 $$
-\int A x^2 \sin^2(kx) \, dx = \frac{A}{6} x^3 - \frac{A}{2} \left[ \frac{x^2 \sin(2kx)}{2k} - \frac{x \cos(2kx)}{(2k)^2} + \frac{\sin(2kx)}{(2k)^3} \right] + C
+\int A x^2 \sin^2(kx) \, dx = \frac{A}{6} x^3 - \frac{A}{4k^2} x^2 \sin(2kx) - \frac{A}{4k^3} x \cos(2kx) + \frac{A}{8k^3} \sin(2kx) + C.
 $$
