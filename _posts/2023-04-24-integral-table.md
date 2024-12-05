@@ -10,3 +10,10 @@ categories: math
 $$
 \int A x^2 \sin^2(kx) \, dx = \frac{A}{6} x^3 - \frac{A}{4k^2} x^2 \sin(2kx) - \frac{A}{4k^3} x \cos(2kx) + \frac{A}{8k^3} \sin(2kx) + C.
 $$
+
+**Definite Integrals**
+$$
+\int_0^\pi \cos^2(x) \, dx = \frac{\pi}{2}
+$$
+
+The area under $\cos$ and $\cos^2$ is $\pi$ times the amplitude. Since our amplitude is only $1$ and the range is only have of a full cycle, the area under is $\pi/2$.
