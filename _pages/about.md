@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Researcher, Physics.
+subtitle: Physics Researcher.
 
 profile:
   align: right
