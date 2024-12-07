@@ -16,8 +16,8 @@ $$
 \int_0^\pi \cos^2(x) \, dx = \frac{\pi}{2}
 $$
 
-The area under $\cos$ and $\cos^2$ is $\pi$ times the amplitude. Since our amplitude is only $1$ and the range is only have of a full cycle, the area under is $\pi/2$. So for a full cycle, it should be twice a half-cycle, or $\pi$
+The area under $$\cos$$ and $$\cos^2$$ is $$\pi$$ times the amplitude. Since our amplitude is only $$1$$ and the range is only have of a full cycle, the area under is $$\pi/2$$. So for a full cycle, it should be twice a half-cycle, or $$\pi$$, so,
 
 $$
-\int_0^{2\pi} \cos^2(x) \, dx = \pi
+\int_0^{2\pi} \cos^2(x) \, dx = \pi.
 $$
