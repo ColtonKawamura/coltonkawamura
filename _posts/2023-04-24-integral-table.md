@@ -12,6 +12,7 @@ $$
 $$
 
 **Definite Integrals**
+
 $$
 \int_0^\pi \cos^2(x) \, dx = \frac{\pi}{2}
 $$
