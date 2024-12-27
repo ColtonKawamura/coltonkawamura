@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Taylor's Classical Mechanics Solutions
+description: My personal solutions
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: physics
 related_publications: true
 ---
 
