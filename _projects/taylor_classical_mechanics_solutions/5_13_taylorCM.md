@@ -9,16 +9,16 @@ giscus_comments: true
 
 # Problem 5.13: Potential Energy and Small Oscillations
 
-The potential energy of a one-dimensional mass \( m \) at a distance \( r \) from the origin is given as:
+The potential energy of a one-dimensional mass $$ m $$ at a distance $$ r $$ from the origin is given as:
 
 $$
 U(r) = U_0 \left( \frac{r}{R} + \frac{\lambda^2 R}{r} \right),
 $$
 
-where \( U_0 \), \( R \), and \( \lambda \) are all positive constants. The task is to:
+where $$ U_0 $$, $$ R $$, and $$ \lambda $$ are all positive constants. The task is to:
 
-1. Find the equilibrium position \( r_0 \).
-2. Show that for small displacements \( x \), the potential energy takes the form:
+1. Find the equilibrium position $$ r_0 $$.
+2. Show that for small displacements $$ x $$, the potential energy takes the form:
    $$
    U = \text{const} + \frac{1}{2}kx^2.
    $$
@@ -26,7 +26,7 @@ where \( U_0 \), \( R \), and \( \lambda \) are all positive constants. The task
 
 ---
 
-## Finding Equilibrium Position \( r_0 \)
+## Finding Equilibrium Position $$ r_0 $$
 
 Equilibrium positions occur when the force is zero, which corresponds to:
 
@@ -34,7 +34,7 @@ $$
 \frac{\partial U}{\partial r} = 0.
 $$
 
-Taking the derivative of \( U(r) \):
+Taking the derivative of $$ U(r) $$:
 
 $$
 \frac{\partial U}{\partial r} = U_0 \left( \frac{1}{R} - \lambda^2 R \frac{1}{r^2} \right).
