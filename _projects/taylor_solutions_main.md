@@ -9,3 +9,7 @@ related_publications: true
 ---
 
 
+## Chapter 5
+
+[5.8](https://coltonkawamura.github.io/coltonkawamura/projects/5_8_taylorCM/) 
+
