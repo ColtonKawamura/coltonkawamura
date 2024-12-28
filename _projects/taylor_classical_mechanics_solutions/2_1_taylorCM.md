@@ -8,6 +8,7 @@ category: work
 giscus_comments: true
 ---
 
+# When they are Equal
 Equation 2.7 gives the ratio of the quadratic to linear drag force.
 
 $$ \frac{f_\text{quad}}{f_\text{lin}}= \frac{\gamma D}{\beta}v$$
@@ -20,8 +21,12 @@ $$ 1= \frac{\gamma D}{\beta}v$$
 
 for v. Solving,
 
-$$ v= \frac{\beta}{\gamma D}v. $$
+$$ v= \frac{\beta}{\gamma D}. $$
 
+
+# When is it Safe to Ignore $f_\text{lin}$?
+
+We can ignore when $f_\text{lin} << f_\text{quad}$. So for speeds greater than what we found above are safe. 
 
 
 
