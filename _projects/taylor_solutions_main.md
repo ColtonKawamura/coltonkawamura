@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project
+title: Solutions to Classical Mechanics by Taylor
 description: with background image
 img: assets/img/12.jpg
 importance: 1
