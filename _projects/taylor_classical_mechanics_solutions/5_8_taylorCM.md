@@ -9,54 +9,48 @@ giscus_comments: true
 
 # Part a
 
-We are given mass $m$ and $k$ and solving for $\omega$, $f$, and $\tau$ which are all related, so we might as well start by solving for $\omega$. We know that we can get $\omega$ with,
+We are given mass $$m$$ and $$k$$ and solving for $$\omega$$, $$f$$, and $$\tau$$ which are all related, so we might as well start by solving for $$\omega$$. We know that we can get $$\omega$$ with,  
 
-$$ \omega^2 = \frac{k}{m}.$$
+$$ \omega^2 = \frac{k}{m}. $$  
 
-And then get $f$ with,
+And then get $$f$$ with,  
 
-$$ f= \frac{2 \pi}{\omega}.$$
+$$ f = \frac{2 \pi}{\omega}. $$  
 
-Then get the period by
+Then get the period by  
 
-$$\tau = \frac{1}{f}.$$
-
+$$ \tau = \frac{1}{f}. $$  
 
 # Part b
 
-When the initial position $x(t) = 0$,
+When the initial position $$x(t) = 0$$,  
 
-$$ 0 = A \cos (0 - \delta).$$
+$$ 0 = A \cos(0 - \delta). $$  
 
-Since $A \neq 0$ (it's oscillating!), the above relation is only true when 
+Since $$A \neq 0$$ (it's oscillating!), the above relation is only true when  
 
-$$ 0 = \cos(\delta)$$
+$$ 0 = \cos(\delta) $$  
 
-because $\cos$ is even. This only happens when $\delta = \pm n \pi /2$.
+because $$\cos$$ is even. This only happens when  
 
-With initial velocity is $v_0$,
+$$ \delta = \pm n \pi / 2. $$  
 
-$$ v_0 = -A\omega\sin(0-\delta)$$
+With initial velocity $$v_0$$,  
 
-and since $\sin$ is odd, the $-$ can move out of the function to make
+$$ v_0 = -A\omega\sin(0-\delta) $$  
 
-$$ v_0 = +A\omega\sin(\delta)$$
+and since $$\sin$$ is odd, the $$-$$ can move out of the function to make  
 
-We know what $\delta$ is now, so let's solve for $A$. Since $\sin(\pm n \pi / 2) = \pm 1$, 
+$$ v_0 = +A\omega\sin(\delta). $$  
 
-$$ v_0 = \pm A\omega.$$
+We know what $$\delta$$ is now, so let's solve for $$A$$. Since $$\sin(\pm n \pi / 2) = \pm 1$$,  
 
-But we were given a positive initial velocity, so our that means,
+$$ v_0 = \pm A\omega. $$  
 
-$$ A = \frac{v_0}{\omega}, $$
+But we were given a positive initial velocity, so that means,  
 
-and we choose the positive $\delta$,
+$$ A = \frac{v_0}{\omega}, $$  
 
-$$ \delta = \frac{ n \pi }{2}.$$
+and we choose the positive $$\delta$$,  
 
-
-
-
-
-
-
+$$ \delta = \frac{n \pi}{2}. $$  
