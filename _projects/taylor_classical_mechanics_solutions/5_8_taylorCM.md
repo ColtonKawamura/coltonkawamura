@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Problem 5.8
+title: Problem 5.8 Taylor Classical Mechanics
 description: Classical Mechanics by Taylor
 importance: 2
-category: work
+category: solutions
 giscus_comments: true
 ---
 
