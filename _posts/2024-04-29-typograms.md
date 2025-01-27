@@ -1,85 +1,35 @@
 ---
 layout: post
-title: a post with typograms
+title: Drag Coefficent in 2D in Matlab 
 date: 2024-04-29 23:36:10
 description: this is what included typograms code could look like
 tags: formatting diagrams
 categories: sample-posts
 typograms: true
 ---
+# Simulating Flow Over a Cylinder Using MATLAB and the Lattice Boltzmann Method
 
-This is an example post with some [typograms](https://github.com/google/typograms/) code.
+## Introduction
 
-````markdown
-```typograms
-+----+
-|    |---> My first diagram!
-+----+
-```
-````
+Computational Fluid Dynamics (CFD) is a powerful tool used to analyze fluid flow problems. In this tutorial, we'll simulate **2D flow past a cylinder** using **MATLAB** and the **Lattice Boltzmann Method (LBM)** to compute the drag coefficient. We'll also visualize velocity fields and streamline patterns.
 
-Which generates:
+---
 
-```typograms
-+----+
-|    |---> My first diagram!
-+----+
-```
+## Problem Setup
 
-Another example:
+We'll analyze the flow past a cylinder with the following parameters:
 
-````markdown
-```typograms
-.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.
-```
-````
+```matlab
+% Problem Parameters
+D = 1.0;            % Cylinder diameter (m)
+U = 1.0;            % Free-stream velocity (m/s)
+rho = 1.0;          % Fluid density (kg/m^3)
+mu = 0.01;          % Dynamic viscosity (Pa.s)
+Re = rho * U * D / mu; % Reynolds number
 
-which generates:
+% Domain size
+Lx = 20;  % Length of domain in x-direction
+Ly = 10;  % Height of domain in y-direction
 
-```typograms
-.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.
-```
+fprintf('Reynolds number: %.2f\n', Re);
 
-For more examples, check out the [typograms documentation](https://google.github.io/typograms/#examples).
