@@ -21,6 +21,4 @@ I develop software in the defense sector and scientific software for large scale
 
 I earned undergraduate and graduate degrees in physics where I concentrated on computational analysis of theoretical energetic materials.
 
-My current research focuses are effects of granular packing on sediment acoustics and leveraging optimal control theory in drone swarm defense.
-
 日本語も独学で勉強しています。僕と一緒に日本語を話す練習をしたい方は、コメントでご連絡ください！
