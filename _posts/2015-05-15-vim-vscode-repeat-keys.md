@@ -11,6 +11,7 @@ thumbnail: assets/img/9.jpg
 Put this in in your terminal.
 
 ```bash
+defaults write -g ApplePressAndHoldEnabled -bool false
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 defaults write -g InitialKeyRepeat -int 11 
 defaults write -g KeyRepeat -int 1 
