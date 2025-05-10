@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Father / Husband / Scientist / Engineer
+subtitle: Father / Husband / Physicist / Engineer
 
 profile:
   align: right
@@ -14,7 +14,6 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-
 I'm a father of three kids that don't sleep and a proud husband.
 
 I'm also an engineer in the defense sector and develop scientific software for large scale modeling and simulations.
