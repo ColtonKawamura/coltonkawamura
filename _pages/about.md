@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Father / Husband / Physicist / Engineer
+subtitle: Father / Husband / Engineer / PhD Candidate
 
 profile:
   align: right
