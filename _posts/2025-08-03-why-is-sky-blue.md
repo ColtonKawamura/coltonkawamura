@@ -32,7 +32,7 @@ Consequently, as described by Maxwell’s equations, changes in the electric fie
 The dominating color of the multi-frequency radiation from the particle is determined by the most intense color frequency in the spectrum. Since intensity is the amount of power transferred per unit area around the dipole, the Poynting vector S can be used to determine the energy per unit area radiated from the dipole’s induced electric and magnetic fields,
 
 $$
-\mathbf{S} = \frac{1}{\mu_0}\left( \mathbf{E} \cross \mathbf{B} \right)
+\mathbf{S} = \frac{1}{\mu_0}\left( \mathbf{E} \times \mathbf{B} \right)
 $$
 
 After averaging the Poynting vector over a complete cycle of oscillation ⟨S⟩, the intensity of the radiation is obtained,
