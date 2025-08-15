@@ -18,11 +18,11 @@ A dive into Fourier analysis can explain this much more analytically, but for no
 
 In the image below: ask yourself Where is the wave?
 
-{% include figure.liquid path="assets/img/visualGuide1.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="assets/img/visualGuide2.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 You can probably tell with some certainty that the wave is where that hump moving to the right is. Now ask yourself this question What is the wavelength? This question is a little hard to answer since the wavelength is the distance between repeating parts of a wave. But what if we had a longer pulse of a wave?
 
-{% include figure.liquid path="assets/img/visualGuide2.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="assets/img/visualGuide1.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 
 Here, the wavelength is much easier to determine since the wave repeats itself. But what happened to the position of the wave? It’s smeared across the length of the pulse — it’s more uncertain. We just traded certainty of the wavelength for the uncertainty of its position.
