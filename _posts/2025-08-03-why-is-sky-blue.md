@@ -31,8 +31,14 @@ Consequently, as described by Maxwell’s equations, changes in the electric fie
 
 The dominating color of the multi-frequency radiation from the particle is determined by the most intense color frequency in the spectrum. Since intensity is the amount of power transferred per unit area around the dipole, the Poynting vector S can be used to determine the energy per unit area radiated from the dipole’s induced electric and magnetic fields,
 
+$$
+\mathbf{S} = \frac{1}{\mu_0}\left( \mathbf{E} \cross \mathbf{B} \right)
+$$
 
 After averaging the Poynting vector over a complete cycle of oscillation ⟨S⟩, the intensity of the radiation is obtained,
 
+$$
+\langle \mathbf{S} \rangle = \left( \frac{\mu_0 p_0^2 \omega^4}{32 \pi^2 c} \right) \frac{\sin^2 \theta}{r^2} \, \hat{\mathbf{r}}
+$$
 
 Of all the terms in the result, intensity is most dependent on frequency ω . Since the sun’s rays contain a broad range of visible frequencies, they are all radiated. However, the colors with higher frequencies will be radiated more intensely since the ω term dominates. This causes blue and violet colors to be the most visible colors. However, since the sun’s original spectrum is stronger in blue than violet, and for physiological reasons, the hue is interpreted by our brains as blue and white. Leading to the pale blue sky color.
