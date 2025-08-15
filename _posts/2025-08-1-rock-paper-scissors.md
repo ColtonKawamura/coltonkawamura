@@ -13,7 +13,7 @@ The internet is riddled with articles about the best strategies for rock, paper,
 
 I should start by summarizing the applicable parts of the [2014 Chinese study](https://arxiv.org/pdf/1404.5199v1) where everyone else got their information. The researchers found that players will throw, on average, a distribution of 36% rocks, 33% papers, and 31% scissors (ignoring the standard deviation). This is slightly different than the Nash equilibrium for RPS, which predicts that the optimal strategy is 1/3 rock, 1/3 paper, and 1/3 scissors. Furthermore, the Chinese study found that if a player lost, they will most likely shift clockwise according to this figure:
 
-![Initial Diagram](/assets/img/rpsDiag.gif "With Nash")
+![Initial Diagram](path="/assets/img/rpsDiag.gif")
 
 If a player wins or ties, they are significantly more likely to repeat their last action. If you’re armed with these data, you could formulate the following strategy:
 
