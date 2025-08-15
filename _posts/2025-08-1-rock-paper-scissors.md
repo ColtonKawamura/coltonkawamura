@@ -5,6 +5,7 @@ date: 2025-08-01 16:40:16
 description: Using robots to play RPS
 tags: computational
 categories: computational
+thumbnail: assets/img/rpsNash.gif
 ---
 
 The internet is riddled with articles about the best strategies for rock, paper, scissors (RPS), and they all generally suggest the same thing. But are these strategies actually effective?
