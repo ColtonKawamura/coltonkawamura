@@ -2,7 +2,7 @@
 layout: post
 title: Why is the Sky Blue?
 date: 2025-08-03 21:01:00
-description: It's not because of gnomes.
+description: It's cooler than you think.
 tags: teaching
 categories: physics
 thumbnail: assets/img/radiation_movement.gif
