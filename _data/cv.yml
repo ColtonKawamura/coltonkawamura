@@ -17,7 +17,7 @@ cv:
 
   sections:
     Education:
-      - institution: University of Amsterdam 
+      - institution: University of Amsterdam
         location: Amsterdam, NL
         url: https://www.uva.nl/en
         area: Physics
@@ -86,7 +86,7 @@ cv:
           - ""
         date: "2020"
         awarder: ""
-        url: "" 
+        url: ""
         summary:
 
       - title: Outstanding Thesis Award
@@ -110,10 +110,10 @@ cv:
           - Michael J. Zdilla
         publisher: Journal of the American Chemical Society (ACS Publications)
         releaseDate: 2020-01-01
-        url: https://pubs.acs.org/doi/10.1021/jacs.3c10621 
-        summary: Study reporting a high-energy-density material whose ignition can be magnetically modulated; characterizes material properties and ignition behavior. 
+        url: https://pubs.acs.org/doi/10.1021/jacs.3c10621
+        summary: Study reporting a high-energy-density material whose ignition can be magnetically modulated; characterizes material properties and ignition behavior.
 
-      - title: Trauma Exposure and Functional Movement Characteristics of Male Tactical Athletes 
+      - title: Trauma Exposure and Functional Movement Characteristics of Male Tactical Athletes
         authors:
           - Marcus K. Taylor
           - Lisa M. Hernández
@@ -122,8 +122,8 @@ cv:
           - John J. Fraser
         publisher: Journal of Athletic Training
         releaseDate: 1905-03-18
-        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7164567/ 
-        summary: Investigation of the relationship between trauma exposure and functional movement characteristics in male tactical athletes 
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7164567/
+        summary: Investigation of the relationship between trauma exposure and functional movement characteristics in male tactical athletes
 
       - title: Structure, Thermodynamics, and Energy Content of Perchlorate Containing Manganese-Clusters
         authors:
@@ -131,7 +131,7 @@ cv:
         publisher: Naval Postgraduate School
         releaseDate: 2020
         url: https://calhoun.nps.edu/server/api/core/bitstreams/96aa1205-e2dc-4383-952c-adfb04166a55/content
-        summary: PhD thesis examining the structure, thermodynamics, and energy content of perchlorate-containing manganese clusters. 
+        summary: PhD thesis examining the structure, thermodynamics, and energy content of perchlorate-containing manganese clusters.
 
       - title: Structure, Thermodynamics, and Energy Content of Perchlorate Containing Manganese-Clusters
         authors:
@@ -139,7 +139,7 @@ cv:
         publisher: Naval Postgraduate School
         releaseDate: 2020
         url: https://calhoun.nps.edu/server/api/core/bitstreams/96aa1205-e2dc-4383-952c-adfb04166a55/content
-        summary: PhD thesis examining the structure, thermodynamics, and energy content of perchlorate-containing manganese clusters. 
+        summary: PhD thesis examining the structure, thermodynamics, and energy content of perchlorate-containing manganese clusters.
 
     Skills:
       - name: Physics

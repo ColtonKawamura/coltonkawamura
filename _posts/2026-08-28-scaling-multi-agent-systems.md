@@ -9,7 +9,6 @@ categories: papers
 
 [Read the full paper preview →](https://arxiv.org/abs/2603.10743)
 
-
 Designing a large autonomous drone swarm forces the engineer to choose across a very wide design space simultaneously: the **platform** (speed, sensing range, weapon range, mass), the **algorithmic layer** (cooperative control, path planning, target allocation), and the **numerical-strength parameters** (how many agents, how fast they move relative to one another, how quickly they are lost). Because these choices interact in nonlinear ways, there is no closed-form way to predict performance, and a brute-force search over all combinations is intractable.
 
 ## Our Approach
@@ -26,7 +25,7 @@ For each scenario we swept the key design parameters over many orders of magnitu
 
 ### Simple but counterintuitive scaling laws
 
-By applying **dimensional analysis** and **data-scaling**, we collapsed the high-dimensional performance data onto low-dimensional **scaling functions**. These functions are mathematically compact, yet their shape is *counterintuitive* and, as far as we can tell, cannot be predicted *a priori* from first principles.
+By applying **dimensional analysis** and **data-scaling**, we collapsed the high-dimensional performance data onto low-dimensional **scaling functions**. These functions are mathematically compact, yet their shape is _counterintuitive_ and, as far as we can tell, cannot be predicted _a priori_ from first principles.
 
 ### Success–failure boundaries and "effective swarm size"
 
@@ -38,9 +37,8 @@ Because the scaling functions are explicit, they let us **quantify trade-offs** 
 
 ### Path-planning loop
 
-We further demonstrated that embedding an **optimal path-planning loop** inside the swarm algorithm *qualitatively improves* the governing scaling laws, shifting the effective operating regime to more favourable regions of parameter space.
+We further demonstrated that embedding an **optimal path-planning loop** inside the swarm algorithm _qualitatively improves_ the governing scaling laws, shifting the effective operating regime to more favourable regions of parameter space.
 
 ## What We Propose
 
 The methods we developed are **scenario-agnostic and highly flexible**. Taken together, they provide a route to **rapid, budget-aware sizing and algorithm selection** for large autonomous swarms: instead of simulating thousands of design variants, the designer can consult a small set of scaling functions that already encode the dominant physics of the problem and flag where the most critical performance transitions lie.
-

@@ -12,7 +12,7 @@ categories: research papers
 ## The Problem
 
 When an acoustic wave propagates through a fluid-saturated granular packing (e.g., water-filled sand or gravel), the wave amplitude decays over distance — this is **attenuation**.
-A well-established empirical observation is that at a certain point, the spatial attenuation rate changes from a quadratic scaling to a *linear* scaling with frequency.
+A well-established empirical observation is that at a certain point, the spatial attenuation rate changes from a quadratic scaling to a _linear_ scaling with frequency.
 Despite decades of experimental data, no framework grounded in grain-scale physics had explained this dependence.
 
 ## Our Approach
@@ -27,8 +27,8 @@ My collaborators and I performed particle-based numerical simulations in which e
 
 At a **pressure-dependent critical frequency**, both the eigenmodes and the propagating waves undergo a sharp transition:
 
-- **Below the critical frequency:** The grains move in a **coherent, continuum-like** fashion. The spatial attenuation rate scales *quadratically* with frequency and *linearly* with contact dissipation, consistent with classical viscous-fluid behavior.
-- **Above the critical frequency:** The motion becomes **incoherent and localized at the particle scale**, with energy redistributed through scattering between grains. Here, attenuation scales *linearly* with frequency and *sublinearly* with contact dissipation — the regime that had avoided explanation.
+- **Below the critical frequency:** The grains move in a **coherent, continuum-like** fashion. The spatial attenuation rate scales _quadratically_ with frequency and _linearly_ with contact dissipation, consistent with classical viscous-fluid behavior.
+- **Above the critical frequency:** The motion becomes **incoherent and localized at the particle scale**, with energy redistributed through scattering between grains. Here, attenuation scales _linearly_ with frequency and _sublinearly_ with contact dissipation — the regime that had avoided explanation.
 
 The spatial structure of the damped eigenmodes and the measured wave propagation characteristics agree with one another at the same critical frequency, and both are consistent with a large body of experimental data that no prior grain-scale model could reproduce.
 
