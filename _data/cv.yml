@@ -11,9 +11,9 @@ cv:
     - network: X
       username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: coltonkawamura
     - network: LinkedIn
-      username: example
+      username: coltonkawamura
 
   sections:
     Education:
@@ -23,34 +23,25 @@ cv:
         area: Physics
         studyType: PhD
         start_date: 2025
-        end_date: "Present"
+        end_date: ""
         score: ""
-        courses: ""
-        highlights:
-          - Condensed Matter
-          - Soft Condensed Matter
+        courses: "Condensed Matter / Soft Condensed Matter"
 
       - institution: Naval Postgraduate School
         location: Monterey, CA
         url: https://www.nps.edu/
         area: Physics
-        studyType: Masters, Phd
+        studyType: Masters
         start_date: 2018
         end_date: 2021
-        highlights:
-          - Computational Quantum Thermochemistry.
-          - Undersea Warfare.
 
       - institution: US Naval Academy
         location: Annapolis, MD
         url: https://www.usna.edu/
-        area: Physics, Chemistry
+        area: "Physics, Chemistry"
         studyType: Bachelors
         start_date: 2008
         end_date: 2012
-        highlights:
-          - Computational Physics.
-          - Biophysics.
 
     Experience:
       - company: Duotech Services
@@ -58,10 +49,8 @@ cv:
         url: https://www.duotechservices.com/
         location: Franklin, NC
         start_date: 2025
-        end_date: "Present"
-        summary: System software engineer and DevOps Engineer.
-        highlights:
-          - C# .NET, Python, SQL, Node.js, and JavaScript development.
+        end_date: ""
+        summary: System software engineer and DevOps engineer.
 
       - company: Naval Postgraduate School
         position: Research Faculty
@@ -69,9 +58,6 @@ cv:
         location: Monterey, CA
         start_date: 2024
         end_date: 2025
-        highlights:
-          - Multi-Agent Drone Algorithms.
-          - Computational Soft Condensed Matter.
 
       - company: US Navy
         position: Special Operations Officer
@@ -82,19 +68,12 @@ cv:
 
     Awards:
       - title: Chief of Naval Operations (CNO) Award
-        authors:
-          - ""
         date: "2020"
-        awarder: ""
-        url: ""
-        summary:
+        awarder: US Navy
 
       - title: Outstanding Thesis Award
-        authors:
-          - ""
         date: "2020"
-        awarder: ""
-        summary: ""
+        awarder: Naval Postgraduate School
 
     Publications:
       - title: High-Energy-Density Material with Magnetically Modulated Ignition
@@ -111,7 +90,6 @@ cv:
         publisher: Journal of the American Chemical Society (ACS Publications)
         releaseDate: 2020-01-01
         url: https://pubs.acs.org/doi/10.1021/jacs.3c10621
-        summary: Study reporting a high-energy-density material whose ignition can be magnetically modulated; characterizes material properties and ignition behavior.
 
       - title: Trauma Exposure and Functional Movement Characteristics of Male Tactical Athletes
         authors:
@@ -121,9 +99,8 @@ cv:
           - Colton Kawamura
           - John J. Fraser
         publisher: Journal of Athletic Training
-        releaseDate: 1905-03-18
+        releaseDate: 2015-03-18
         url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7164567/
-        summary: Investigation of the relationship between trauma exposure and functional movement characteristics in male tactical athletes
 
       - title: Structure, Thermodynamics, and Energy Content of Perchlorate Containing Manganese-Clusters
         authors:
@@ -131,25 +108,15 @@ cv:
         publisher: Naval Postgraduate School
         releaseDate: 2020
         url: https://calhoun.nps.edu/server/api/core/bitstreams/96aa1205-e2dc-4383-952c-adfb04166a55/content
-        summary: PhD thesis examining the structure, thermodynamics, and energy content of perchlorate-containing manganese clusters.
-
-      - title: Structure, Thermodynamics, and Energy Content of Perchlorate Containing Manganese-Clusters
-        authors:
-          - Colton Kawamura
-        publisher: Naval Postgraduate School
-        releaseDate: 2020
-        url: https://calhoun.nps.edu/server/api/core/bitstreams/96aa1205-e2dc-4383-952c-adfb04166a55/content
-        summary: PhD thesis examining the structure, thermodynamics, and energy content of perchlorate-containing manganese clusters.
 
     Skills:
       - name: Physics
-        level: ""
+        level: "Advanced"
         icon: fa-solid fa-hashtag
         keywords: "Computational Methods, Molecular Dynamics, Granular Materials, Soft Condensed Matter, Quantum Mechanics, Density Functional Theory"
 
     Languages:
       - name: English
         summary: "Native speaker"
-
       - name: Japanese
         summary: "Conversational"
